@@ -112,11 +112,12 @@
     </sprites>
     <sprites name="Gui">
       <sprite>sprites\spr_cursor</sprite>
-      <sprite>sprites\heart_full</sprite>
-      <sprite>sprites\heart_two</sprite>
-      <sprite>sprites\heart_three</sprite>
-      <sprite>sprites\heart_four</sprite>
-      <sprite>sprites\heart_empty</sprite>
+      <sprite>sprites\healthbar_full</sprite>
+      <sprite>sprites\healthbar_two</sprite>
+      <sprite>sprites\healthbar_three</sprite>
+      <sprite>sprites\healthbar_four</sprite>
+      <sprite>sprites\healthbar_five</sprite>
+      <sprite>sprites\healthbar_empty</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -170,7 +171,6 @@
       <object>objects\obj_pause</object>
       <object>objects\obj_dead</object>
       <object>objects\obj_action</object>
-      <object>objects\heart</object>
     </objects>
   </objects>
   <rooms name="rooms">
