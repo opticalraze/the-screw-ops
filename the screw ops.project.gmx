@@ -64,9 +64,8 @@
       <sprite>sprites\spr_player_sprint</sprite>
     </sprites>
     <sprites name="Enemy">
-      <sprite>sprites\spr_enemy_one_idle</sprite>
+      <sprite>sprites\spr_enemy_one</sprite>
       <sprite>sprites\spr_enemy_two_idle</sprite>
-      <sprite>sprites\spr_enemy_one_walk</sprite>
       <sprite>sprites\spr_enemy_two_walk</sprite>
       <sprite>sprites\spr_enemy_three_idle</sprite>
       <sprite>sprites\spr_enemy_one_jump</sprite>
