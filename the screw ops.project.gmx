@@ -38,6 +38,8 @@
       <sound>sound\snd_gunshot</sound>
       <sound>sound\snd_explosion</sound>
       <sound>sound\snd_fall</sound>
+      <sound>sound\snd_dead</sound>
+      <sound>sound\snd_pop</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">

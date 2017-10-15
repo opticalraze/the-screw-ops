@@ -224,6 +224,7 @@ if (place_meeting(x,y+1, obj_floor)) {
 if !recently_hit 
 {
     global.hp -= 20;
+    audio_play_sound(snd_pop, 100, false);
     recently_hit = true;
     alarm[0] = 1 * room_speed;
 }
