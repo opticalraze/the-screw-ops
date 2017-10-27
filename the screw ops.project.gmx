@@ -113,6 +113,7 @@
     </sprites>
     <sprites name="Gui">
       <sprite>sprites\spr_cursor</sprite>
+      <sprite>sprites\spr_cursor_reload</sprite>
       <sprites name="Health Bar">
         <sprite>sprites\healthbar_full</sprite>
         <sprite>sprites\healthbar_two</sprite>
