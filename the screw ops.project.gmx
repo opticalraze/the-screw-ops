@@ -41,6 +41,10 @@
       <sound>sound\snd_dead</sound>
       <sound>sound\snd_pop</sound>
     </sounds>
+    <sounds name="Maze Dodger">
+      <sound>sound\snd_md_maze_dodger</sound>
+      <sound>sound\snd_md_start</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Main">
@@ -97,6 +101,7 @@
       <sprite>sprites\spr_mine_two_idle</sprite>
       <sprite>sprites\spr_mine_two_active</sprite>
       <sprite>sprites\spr_painting</sprite>
+      <sprite>sprites\spr_painting_maze_dodger</sprite>
       <sprite>sprites\spr_spike</sprite>
       <sprite>sprites\spr_pot</sprite>
       <sprite>sprites\spr_balloon</sprite>
@@ -123,6 +128,12 @@
         <sprite>sprites\healthbar_five</sprite>
         <sprite>sprites\healthbar_empty</sprite>
       </sprites>
+    </sprites>
+    <sprites name="Maze Dodger">
+      <sprite>sprites\spr_md_wall</sprite>
+      <sprite>sprites\spr_md_background</sprite>
+      <sprite>sprites\spr_md_player</sprite>
+      <sprite>sprites\spr_md_finish</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -179,9 +190,16 @@
       <object>objects\obj_action</object>
       <object>objects\obj_gui</object>
     </objects>
+    <objects name="Maze Dodger">
+      <object>objects\obj_md_wall</object>
+      <object>objects\obj_md_background</object>
+      <object>objects\obj_md_player</object>
+      <object>objects\obj_md_finish</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_maze_dodger</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_credits</room>
