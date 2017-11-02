@@ -139,6 +139,7 @@
   <scripts name="scripts">
     <script>scripts\game_over.gml</script>
     <script>scripts\get_input.gml</script>
+    <script>scripts\scr_shadow.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Animate Objects">
