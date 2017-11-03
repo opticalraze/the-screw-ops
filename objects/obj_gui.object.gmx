@@ -50,6 +50,8 @@
             <kind>1</kind>
             <string>/// Draw the gui
 
+if (global.pause = 0) {
+
     // Draw the health bar
     
     display_set_gui_size(135, 75);
@@ -75,6 +77,47 @@
             draw_sprite(spr_healthbar, 5, 0, 1);
             break;
         }
+        
+    } else if (global.pause = 1) { 
+    
+    // Draw the paused text
+    
+    draw_set_color(c_black);
+    draw_set_alpha(0.75);
+    
+    if (window_get_fullscreen()) {
+    draw_rectangle(0,0,display_get_width(),display_get_height(),0);
+    } else {
+    draw_rectangle(0,0,room_width,room_height,0);
+    }
+    
+    draw_set_halign(fa_center);
+    //draw_set_font(fnt_menu);
+    draw_set_color(c_white);
+    draw_set_alpha(1);  
+    
+    if (window_get_fullscreen()) {
+    var xx = display_get_width()/2;
+    var yy = display_get_height()/2;
+    } else {
+    var xx = 1024/2;
+    var yy = 576/2;
+    }
+    
+    display_get_width()
+    draw_set_halign(fa_center);
+    draw_text(xx, yy-64, title);
+    
+    for (var i=0; i&lt;=array_length_1d(option)-1; i++) {
+        draw_set_colour(c_gray);
+        if (i == menu_index) {
+            draw_set_colour(c_white);
+        }
+        draw_text(xx, yy+(i*32), option[i]);
+    }
+    draw_set_color(c_white);
+    draw_set_halign(fa_left);
+}
 </string>
           </argument>
         </arguments>
