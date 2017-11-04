@@ -56,8 +56,7 @@ if (global.pause = 0) {
     
     display_set_gui_size(135, 75);
     
-    switch (global.hp)
-        {
+    switch (global.hp) {
         case 100:
            draw_sprite(spr_healthbar, 0, 0, 1);
            break;
@@ -76,47 +75,71 @@ if (global.pause = 0) {
         case 0:
             draw_sprite(spr_healthbar, 5, 0, 1);
             break;
-        }
-        
-    } else if (global.pause = 1) { 
-    
-    // Draw the paused text
-    
-    draw_set_color(c_black);
-    draw_set_alpha(0.75);
-    
-    if (window_get_fullscreen()) {
-    draw_rectangle(0,0,display_get_width(),display_get_height(),0);
-    } else {
-    draw_rectangle(0,0,room_width,room_height,0);
     }
     
-    draw_set_halign(fa_center);
-    //draw_set_font(fnt_menu);
-    draw_set_color(c_white);
-    draw_set_alpha(1);  
+    // Draw the energy bar
     
-    if (window_get_fullscreen()) {
-    var xx = display_get_width()/2;
-    var yy = display_get_height()/2;
-    } else {
-    var xx = 1024/2;
-    var yy = 576/2;
+    display_set_gui_size(135, 75);
+    
+    switch (global.energy) {
+        case 17:
+           draw_sprite(spr_energybar, 0, 70, 1);
+           break;
+        case 16:
+           draw_sprite(spr_energybar, 1, 70, 1);
+           break;
+        case 15:
+           draw_sprite(spr_energybar, 2, 70, 1);
+           break;
+        case 14:
+           draw_sprite(spr_energybar, 3, 70, 1);
+           break;
+        case 13:
+            draw_sprite(spr_energybar, 4, 70, 1);
+            break;
+        case 12:
+            draw_sprite(spr_energybar, 5, 70, 1);
+            break;
+        case 11:
+            draw_sprite(spr_energybar, 6, 70, 1);
+            break;
+        case 10:
+            draw_sprite(spr_energybar, 7, 70, 1);
+            break;
+        case 9:
+            draw_sprite(spr_energybar, 8, 70, 1);
+            break;
+        case 8:
+            draw_sprite(spr_energybar, 9, 70, 1);
+            break;
+        case 7:
+            draw_sprite(spr_energybar, 10, 70, 1);
+            break;
+        case 6:
+            draw_sprite(spr_energybar, 11, 70, 1);
+            break;
+        case 5:
+            draw_sprite(spr_energybar, 12, 70, 1);
+            break;
+        case 4:
+            draw_sprite(spr_energybar, 13, 70, 1);
+            break;
+        case 3:
+            draw_sprite(spr_energybar, 14, 70, 1);
+            break;
+        case 2:
+            draw_sprite(spr_energybar, 15, 70, 1);
+            break;
+        case 1:
+            draw_sprite(spr_energybar, 16, 70, 1);
+            break;
+        case 0:
+            draw_sprite(spr_energybar, 17, 70, 1);
+            break;
     }
     
-    display_get_width()
-    draw_set_halign(fa_center);
-    draw_text(xx, yy-64, title);
     
-    for (var i=0; i&lt;=array_length_1d(option)-1; i++) {
-        draw_set_colour(c_gray);
-        if (i == menu_index) {
-            draw_set_colour(c_white);
-        }
-        draw_text(xx, yy+(i*32), option[i]);
-    }
-    draw_set_color(c_white);
-    draw_set_halign(fa_left);
+       
 }
 </string>
           </argument>

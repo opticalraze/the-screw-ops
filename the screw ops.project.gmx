@@ -47,6 +47,7 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_crib</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_door</sprite>
@@ -120,9 +121,9 @@
     <sprites name="Gui">
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_cursor_reload</sprite>
-      <sprites name="Health Bar">
-        <sprite>sprites\spr_healthbar</sprite>
-      </sprites>
+      <sprite>sprites\spr_healthbar</sprite>
+      <sprite>sprites\spr_energybar</sprite>
+      <sprite>sprites\spr_energybar_old</sprite>
     </sprites>
     <sprites name="Maze Dodger">
       <sprite>sprites\spr_md_wall</sprite>
@@ -130,6 +131,7 @@
       <sprite>sprites\spr_md_player</sprite>
       <sprite>sprites\spr_md_finish</sprite>
     </sprites>
+    <sprite>sprites\spr_tv_one</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -185,6 +187,10 @@
       <object>objects\obj_dead</object>
       <object>objects\obj_action</object>
       <object>objects\obj_gui</object>
+    </objects>
+    <objects name="End">
+      <object>objects\obj_tv_one</object>
+      <object>objects\obj_crib</object>
     </objects>
     <objects name="Maze Dodger">
       <object>objects\obj_md_wall</object>
