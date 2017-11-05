@@ -82,7 +82,7 @@ vsp += grav;
 if (place_meeting(x+hsp,y,obj_floor))
 {
     yplus = 0;
-    while (place_meeting(x+hsp,y-yplus,obj_floor) &amp;&amp; yplus &lt;= abs(8/*1*hsp*/)) yplus += 1;
+    while (place_meeting(x+hsp,y-yplus,obj_floor) &amp;&amp; yplus &lt;= abs(8)) yplus += 1;
     if place_meeting(x+hsp,y-yplus,obj_floor)
     {
        image_xscale = dir
