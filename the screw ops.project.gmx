@@ -5,6 +5,9 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sounds name="Boss">
+      <sound>sound\snd_boss_laugh</sound>
+    </sounds>
     <sounds name="Enemy">
       <sounds name="Splat">
         <sound>sound\snd_enemy_splat</sound>
@@ -47,7 +50,7 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_crib</sprite>
+    <sprite>sprites\spr_boss</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_door</sprite>
@@ -123,6 +126,7 @@
       <sprite>sprites\spr_cursor_reload</sprite>
       <sprite>sprites\spr_healthbar</sprite>
       <sprite>sprites\spr_energybar</sprite>
+      <sprite>sprites\spr_healthbar_boss</sprite>
       <sprite>sprites\spr_energybar_old</sprite>
     </sprites>
     <sprites name="Maze Dodger">
@@ -131,7 +135,10 @@
       <sprite>sprites\spr_md_player</sprite>
       <sprite>sprites\spr_md_finish</sprite>
     </sprites>
-    <sprite>sprites\spr_tv_one</sprite>
+    <sprites name="End">
+      <sprite>sprites\spr_tv_one</sprite>
+      <sprite>sprites\spr_crib</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -199,9 +206,14 @@
       <object>objects\obj_md_finish</object>
       <object>objects\obj_painting_md</object>
     </objects>
+    <objects name="Boss">
+      <object>objects\obj_boss</object>
+      <object>objects\obj_boss_view</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_game_final</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_maze_dodger</room>
