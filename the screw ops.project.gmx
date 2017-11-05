@@ -143,6 +143,7 @@
   <backgrounds name="background">
     <background>background\bg_wall2</background>
     <background>background\bg_wall</background>
+    <background>background\bg_wall3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -208,13 +209,14 @@
     </objects>
     <objects name="Boss">
       <object>objects\obj_boss</object>
+      <object>objects\obj_camera</object>
       <object>objects\obj_boss_view</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
-    <room>rooms\rm_game_final</room>
     <room>rooms\rm_game</room>
+    <room>rooms\rm_game_final</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_maze_dodger</room>
     <room>rooms\rm_credits</room>
