@@ -172,7 +172,6 @@
       <object>objects\obj_door</object>
       <object>objects\obj_die</object>
       <object>objects\obj_cursor</object>
-      <object>objects\obj_credits</object>
       <object>objects\obj_spike</object>
       <object>objects\obj_mine_two</object>
       <object>objects\obj_bench</object>
@@ -198,6 +197,7 @@
       <object>objects\obj_dead</object>
       <object>objects\obj_action</object>
       <object>objects\obj_gui</object>
+      <object>objects\obj_credits</object>
     </objects>
     <objects name="End">
       <object>objects\obj_tv_one</object>

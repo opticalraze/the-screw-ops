@@ -201,6 +201,8 @@ if (alarm[0] &lt;= 0) {
     
     // Draw the paused text
     
+    display_set_gui_size(1024,576);
+    
     draw_set_color(c_black);
     draw_set_alpha(0.75);
     

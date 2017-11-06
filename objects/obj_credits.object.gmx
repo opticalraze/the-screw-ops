@@ -33,7 +33,7 @@ audio_play_sound(snd_credits, 10, true);
 
 credits = "The Screw Ops#Optical Raze Studios###Developped By##Markus Gudelis#(ModernFuzzBall2)##Nolan Pilon#(Whiskeyclone76)##&amp;##Mathieu Dallaire#(Mathieudd2002)##"; 
 credits += "#Special Thanks#";
-credits += "#(HeartBeast)#";
+credits += "#HeartBeast#";
 credits += "#Shaun Spalding#";
 credits += "#Mr. Kurzius Videos#";
 credits += "#Arend Peter Teaches#";
@@ -41,6 +41,8 @@ credits += "#Aerion#";
 credits += "#Making Games 101#";
 credits += "#rm2kdev#";
 credits += "#Royal Den Studios#";
+credits += "#Linkforce#";
+credits += "#Zaffre Sheep Games#";
 credits += "##Assets#";
 credits += "#opengameart.org#";
 credits += "##Sound Effects#";
@@ -101,6 +103,7 @@ if instance_exists(obj_cursor) instance_destroy(obj_cursor);
           <argument>
             <kind>1</kind>
             <string>/// Draw the credits
+display_set_gui_size(1024,576);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 //draw_set_font(fnt_endcredits);
