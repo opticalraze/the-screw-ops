@@ -146,6 +146,7 @@
     <background>background\bg_wall2</background>
     <background>background\bg_wall</background>
     <background>background\bg_wall3</background>
+    <background>background\bg_wall4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
