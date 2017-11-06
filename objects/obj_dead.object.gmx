@@ -102,6 +102,8 @@ message = "Press any key to quit";
     
     // Draw the death screen
         
+    display_set_gui_size(1024,576);
+    
     draw_set_color(c_red);
     draw_set_alpha(0.75);
         

@@ -30,6 +30,7 @@
       </sounds>
     </sounds>
     <sounds name="Game">
+      <sound>sound\snd_background_boss</sound>
       <sound>sound\snd_background</sound>
       <sound>sound\snd_credits</sound>
       <sound>sound\snd_game_start</sound>
