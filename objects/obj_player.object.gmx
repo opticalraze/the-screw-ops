@@ -109,49 +109,62 @@ instance_create(x,y,obj_gui);
             <string>/// Movement
 
 //Get player input
-if (!global.pause) {
-key_right = keyboard_check(ord('D'));
-key_left = -keyboard_check(ord('A'));
-key_jump = keyboard_check_pressed(vk_space);
-key_crouch = keyboard_check(vk_control);
-key_sprint = keyboard_check(vk_shift);
-key_up = keyboard_check(ord('W'));
-key_down = keyboard_check(ord('S'));
-key_enter = keyboard_check(ord('F'));
-} else {
-key_right = false;
-key_left = false;
-key_jump = false;
-key_crouch = false;
-key_sprint = false;
-key_up = false;
-key_down = false;
-key_enter = false;
+if (!global.pause) 
+{
+    key_right = keyboard_check(ord('D'));
+    key_left = -keyboard_check(ord('A'));
+    key_jump = keyboard_check_pressed(vk_space);
+    key_crouch = keyboard_check(vk_control);
+    key_sprint = keyboard_check(vk_shift);
+    key_up = keyboard_check(ord('W'));
+    key_down = keyboard_check(ord('S'));
+    key_enter = keyboard_check(ord('F'));
+} 
+else 
+{
+    key_right = false;
+    key_left = false;
+    key_jump = false;
+    key_crouch = false;
+    key_sprint = false;
+    key_up = false;
+    key_down = false;
+    key_enter = false;
 }
 
 //React to inputs
 
 // Sprint / crouch
-if (key_sprint &amp;&amp; !key_crouch) {
+if (key_sprint &amp;&amp; !key_crouch) 
+    {
     movespeed = 3;
-} else if (key_crouch &amp;&amp; !key_sprint) {
+    } 
+    else if (key_crouch &amp;&amp; !key_sprint) 
+    {
     movespeed = 0;
-} else {
+    } 
+    else 
+    {
     movespeed = 1;
-}
+    }
 
 //Ladder
-if (place_meeting(x, y, obj_ladder)) {
+if (place_meeting(x, y, obj_ladder)) 
+{
     vsp = 0;
     grav = 0;
-    if (key_up) {
+    if (key_up) 
+    {
         vsp = -2;
     }
     
-    if (key_down) {
+    if (key_down) 
+    {
         vsp = 2;
     }
-} else {
+} 
+else 
+{
     grav = 0.2;
 }
 
@@ -159,7 +172,8 @@ if (place_meeting(x, y, obj_ladder)) {
 // in the obj_door step event
 
 // Look
-if (key_up &amp;&amp; !place_meeting(x, y, obj_ladder)) {
+if (key_up &amp;&amp; !place_meeting(x, y, obj_ladder)) 
+{
     key_right = false;
     key_left = false;
 }
@@ -205,26 +219,37 @@ y += vsp;
 
 // Animate
 if (move!=0) image_xscale = move;
-if (place_meeting(x,y+1, obj_floor)) {
+if (place_meeting(x,y+1, obj_floor)) 
+{
     if (hsp!=0) sprite_index = spr_player_walk; else sprite_index = spr_player_idle;
-} else {
+} 
+else 
+{
     if (vsp &lt; 0) sprite_index = spr_player_jump; else sprite_index = spr_player_fall;
 }
 
-if (place_meeting(x,y+1, obj_floor)) {
-    if (key_sprint &amp;&amp; hsp!=0) {
+if (place_meeting(x,y+1, obj_floor)) 
+{
+    if (key_sprint &amp;&amp; hsp!=0) 
+    {
         sprite_index = spr_player_sprint;
-    } else if (key_crouch) {
+    }   
+    else if (key_crouch) 
+    {
         sprite_index = spr_player_crouch;
     }
-} else if (place_meeting(x,y, obj_ladder)) {
-    if (key_up) {
+} 
+else if (place_meeting(x,y, obj_ladder)) 
+{
+    if (key_up) 
+    {
         sprite_index = spr_player_look;
     }
 }
 
 
-if (key_sprint &amp;&amp; global.energy != 0) {
+if (key_sprint &amp;&amp; global.energy != 0) 
+{
     alarm[0] = room_speed*2;
 }
 </string>

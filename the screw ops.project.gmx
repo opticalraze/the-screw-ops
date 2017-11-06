@@ -51,6 +51,7 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_door_one</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_door</sprite>
@@ -142,6 +143,7 @@
     <sprites name="Boss">
       <sprite>sprites\spr_boss</sprite>
     </sprites>
+    <sprite>sprites\spr_exit_sign</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -156,12 +158,13 @@
     <script>scripts\scr_shadow.gml</script>
   </scripts>
   <objects name="objects">
-    <objects name="Animate Objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_bot_one</object>
+    <object>objects\obj_bot_two</object>
+    <object>objects\obj_balloon</object>
+    <objects name="Enemies">
       <object>objects\obj_enemy_one</object>
       <object>objects\obj_enemy_two</object>
-      <object>objects\obj_player</object>
-      <object>objects\obj_bot_one</object>
-      <object>objects\obj_balloon</object>
     </objects>
     <objects name="Inanimate Objects">
       <object>objects\obj_table</object>
@@ -216,9 +219,16 @@
       <object>objects\obj_camera</object>
       <object>objects\obj_boss_view</object>
     </objects>
+    <object>objects\obj_rm_one</object>
+    <object>objects\obj_rm_boss</object>
+    <objects name="Doors">
+      <object>objects\obj_door_one</object>
+      <object>objects\obj_exit_sign</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_one</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
     <room>rooms\rm_tutorial</room>
