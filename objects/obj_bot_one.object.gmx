@@ -25,20 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize Variables
-grav = 0.2;
-hsp = 0;
-vsp = 0;
-jumpspeed = 4;
-movespeed = 1;
-crouching = false;
-sprinting = false;
+            <string>/// Set alarm[0] to 2 seconds
+
+alarm[0] = 2*room_speed;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -55,17 +50,7 @@ sprinting = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Movement
-
-while (!place_meeting(x,y,obj_floor))
-{
-    y += 1;
-}
-
-while (!place_meeting(x,y,obj_door_one))
-{
-    x += 1;
-}
+            <string>move_towards_point(obj_door_one.x,obj_door_one.y,3);
 </string>
           </argument>
         </arguments>

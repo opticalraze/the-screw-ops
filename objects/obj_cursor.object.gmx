@@ -260,6 +260,64 @@ if (!global.pause &amp;&amp; !global.dead) {
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_enemy_two">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Hurt the enemy
+if (!global.pause &amp;&amp; !global.dead) {
+    if (mouse_check_button_pressed(mb_left)) {
+        instance_create(x,y,obj_explosion_enemy);
+        instance_destroy(other);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_enemy_one">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Hurt the enemy
+if (!global.pause &amp;&amp; !global.dead) {
+    if (mouse_check_button_pressed(mb_left)) {
+        instance_create(x,y,obj_explosion_enemy);
+        instance_destroy(other);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_balloon">
       <action>
         <libid>1</libid>
@@ -345,64 +403,6 @@ if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(x,y,obj_player_splat);
         game_over();
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_enemy_two">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// Hurt the enemy
-if (!global.pause &amp;&amp; !global.dead) {
-    if (mouse_check_button_pressed(mb_left)) {
-        instance_create(x,y,obj_explosion_enemy);
-        instance_destroy(other);
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_enemy_one">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// Hurt the enemy
-if (!global.pause &amp;&amp; !global.dead) {
-    if (mouse_check_button_pressed(mb_left)) {
-        instance_create(x,y,obj_explosion_enemy);
-        instance_destroy(other);
     }
 }
 </string>
