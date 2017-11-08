@@ -57,6 +57,11 @@
     <sprite>sprites\spr_trigger_two</sprite>
     <sprite>sprites\spr_door_one</sprite>
     <sprite>sprites\spr_door_two</sprite>
+    <sprite>sprites\spr_door_three</sprite>
+    <sprite>sprites\obj_door_four</sprite>
+    <sprite>sprites\spr_elevator_button</sprite>
+    <sprite>sprites\spr_elevator_sign</sprite>
+    <sprite>sprites\obj_door_five</sprite>
     <sprite>sprites\spr_exit_sign</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
@@ -223,7 +228,6 @@
     </objects>
     <objects name="Other">
       <object>objects\obj_options</object>
-      <object>objects\obj_music</object>
       <object>objects\obj_score</object>
       <object>objects\obj_pause</object>
       <object>objects\obj_dead</object>
@@ -247,15 +251,21 @@
       <object>objects\obj_camera</object>
       <object>objects\obj_boss_view</object>
     </objects>
-    <object>objects\obj_rm_one</object>
     <object>objects\obj_rm_boss</object>
     <objects name="Doors">
       <object>objects\obj_door_one</object>
       <object>objects\obj_door_two</object>
       <object>objects\obj_exit_sign</object>
+      <object>objects\obj_door_three</object>
     </objects>
     <object>objects\obj_molding</object>
     <object>objects\obj_lightswitch</object>
+    <objects name="Sound">
+      <object>objects\obj_music_one</object>
+      <object>objects\obj_rm_two</object>
+    </objects>
+    <object>objects\obj_trigger_three</object>
+    <object>objects\obj_trigger_four</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>

@@ -119,7 +119,7 @@
     <instance objName="obj_die" x="1600" y="672" name="inst_3958DAA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_die" x="1632" y="672" name="inst_795A857E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_die" x="1664" y="672" name="inst_3A1D1AD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_music" x="0" y="704" name="inst_E45C9AB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_music_one" x="0" y="704" name="inst_E45C9AB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_table" x="288" y="192" name="inst_11E662FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pot" x="288" y="192" name="inst_6DF1E368" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_table" x="160" y="192" name="inst_07AC3A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
