@@ -51,10 +51,13 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_wall_two</sprite>
+    <sprite>sprites\spr_floor_one</sprite>
     <sprite>sprites\spr_trigger_one</sprite>
     <sprite>sprites\spr_trigger_two</sprite>
     <sprite>sprites\spr_door_one</sprite>
     <sprite>sprites\spr_door_two</sprite>
+    <sprite>sprites\spr_exit_sign</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_door</sprite>
@@ -153,15 +156,13 @@
     <sprites name="Boss">
       <sprite>sprites\spr_boss</sprite>
     </sprites>
-    <sprite>sprites\spr_exit_sign</sprite>
-    <sprite>sprites\sprite79</sprite>
-    <sprite>sprites\spr_wall_one</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
     <background>background\bg_wall</background>
     <background>background\bg_wall3</background>
     <background>background\bg_one</background>
+    <background>background\bg_two</background>
     <background>background\bg_wall4</background>
   </backgrounds>
   <paths name="paths"/>
@@ -171,12 +172,16 @@
     <script>scripts\scr_shadow.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="Cutscene two">
+      <object>objects\obj_bot_three</object>
+    </objects>
     <objects name="Cutscene one">
       <object>objects\obj_bot_one</object>
       <object>objects\obj_trigger_one</object>
       <object>objects\obj_trigger_two</object>
       <object>objects\obj_bot_two</object>
       <object>objects\obj_rm_one_view</object>
+      <object>objects\obj_floor_one</object>
     </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_balloon</object>
