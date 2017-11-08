@@ -156,12 +156,16 @@
     <sprites name="Boss">
       <sprite>sprites\spr_boss</sprite>
     </sprites>
+    <sprite>sprites\spr_molding</sprite>
+    <sprite>sprites\spr_lightswitch</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
     <background>background\bg_wall</background>
     <background>background\bg_wall3</background>
     <background>background\bg_one</background>
+    <background>background\bg_four</background>
+    <background>background\bg_three</background>
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
   </backgrounds>
@@ -174,6 +178,7 @@
   <objects name="objects">
     <objects name="Cutscene two">
       <object>objects\obj_bot_three</object>
+      <object>objects\obj_cutscene_two</object>
     </objects>
     <objects name="Cutscene one">
       <object>objects\obj_bot_one</object>
@@ -249,6 +254,8 @@
       <object>objects\obj_door_two</object>
       <object>objects\obj_exit_sign</object>
     </objects>
+    <object>objects\obj_molding</object>
+    <object>objects\obj_lightswitch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
