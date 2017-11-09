@@ -68,7 +68,7 @@
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_door</sprite>
     </sprites>
-    <sprites name="Bot">
+    <sprites name="Bots">
       <sprite>sprites\spr_bot_one_idle</sprite>
       <sprite>sprites\spr_bot_one_look</sprite>
       <sprite>sprites\spr_bot_one_crouch</sprite>
@@ -165,6 +165,7 @@
     <sprite>sprites\spr_graffity_one</sprite>
     <sprite>sprites\spr_poster_one</sprite>
     <sprite>sprites\spr_intercom</sprite>
+    <sprite>sprites\spr_intercom_mark</sprite>
     <sprite>sprites\spr_door_sign_one</sprite>
     <sprite>sprites\spr_door_sign_two</sprite>
     <sprite>sprites\spr_door_sign_three</sprite>
@@ -285,6 +286,7 @@
     <object>objects\obj_door_sign_five</object>
     <object>objects\obj_door_sign_six</object>
     <object>objects\obj_intercom</object>
+    <object>objects\obj_intercom_mark</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
@@ -292,6 +294,7 @@
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
+    <room>rooms\rm_five</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
     <room>rooms\rm_credits</room>
