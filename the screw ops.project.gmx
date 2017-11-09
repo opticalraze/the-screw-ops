@@ -46,8 +46,8 @@
       <sound>sound\snd_pop</sound>
     </sounds>
     <sounds name="Maze Dodger">
-      <sound>sound\snd_md_maze_dodger</sound>
-      <sound>sound\snd_md_start</sound>
+      <sound>sound\snd_maze_dodger_start</sound>
+      <sound>sound\snd_maze_dodger</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -62,6 +62,7 @@
     <sprite>sprites\spr_elevator_button</sprite>
     <sprite>sprites\spr_elevator_sign</sprite>
     <sprite>sprites\obj_door_five</sprite>
+    <sprite>sprites\obj_door_five_plus</sprite>
     <sprite>sprites\spr_exit_sign</sprite>
     <sprites name="Main">
       <sprite>sprites\spr_floor</sprite>
@@ -148,12 +149,6 @@
       <sprite>sprites\spr_healthbar_boss</sprite>
       <sprite>sprites\spr_energybar_old</sprite>
     </sprites>
-    <sprites name="Maze Dodger">
-      <sprite>sprites\spr_md_wall</sprite>
-      <sprite>sprites\spr_md_background</sprite>
-      <sprite>sprites\spr_md_player</sprite>
-      <sprite>sprites\spr_md_finish</sprite>
-    </sprites>
     <sprites name="End">
       <sprite>sprites\spr_tv_one</sprite>
       <sprite>sprites\spr_crib</sprite>
@@ -163,6 +158,10 @@
     </sprites>
     <sprite>sprites\spr_molding</sprite>
     <sprite>sprites\spr_lightswitch</sprite>
+    <sprite>sprites\spr_wall_one</sprite>
+    <sprite>sprites\spr_pot_one</sprite>
+    <sprite>sprites\spr_table_one</sprite>
+    <sprite>sprites\spr_poster_one</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -192,6 +191,7 @@
       <object>objects\obj_bot_two</object>
       <object>objects\obj_rm_one_view</object>
       <object>objects\obj_floor_one</object>
+      <object>objects\obj_player_look</object>
     </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_balloon</object>
@@ -239,13 +239,7 @@
       <object>objects\obj_tv_one</object>
       <object>objects\obj_crib</object>
     </objects>
-    <objects name="Maze Dodger">
-      <object>objects\obj_md_wall</object>
-      <object>objects\obj_md_background</object>
-      <object>objects\obj_md_player</object>
-      <object>objects\obj_md_finish</object>
-      <object>objects\obj_painting_md</object>
-    </objects>
+    <object>objects\obj_painting_maze_dodger</object>
     <objects name="Boss">
       <object>objects\obj_boss</object>
       <object>objects\obj_camera</object>
@@ -257,6 +251,9 @@
       <object>objects\obj_door_two</object>
       <object>objects\obj_exit_sign</object>
       <object>objects\obj_door_three</object>
+      <object>objects\obj_elevator_button</object>
+      <object>objects\obj_elevator_sign</object>
+      <object>objects\obj_elevator_door</object>
     </objects>
     <object>objects\obj_molding</object>
     <object>objects\obj_lightswitch</object>
@@ -265,17 +262,21 @@
       <object>objects\obj_rm_two</object>
     </objects>
     <object>objects\obj_trigger_three</object>
+    <object>objects\obj_wall_one</object>
+    <object>objects\obj_pot_one</object>
+    <object>objects\obj_table_one</object>
     <object>objects\obj_trigger_four</object>
+    <object>objects\obj_poster_one</object>
+    <object>objects\obj_trigger_five</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_four</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
-    <room>rooms\rm_tutorial</room>
-    <room>rooms\rm_maze_dodger</room>
     <room>rooms\rm_credits</room>
   </rooms>
   <help>

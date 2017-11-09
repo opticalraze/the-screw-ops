@@ -147,7 +147,7 @@ if (!global.pause &amp;&amp; !global.dead) {
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_painting_md">
+    <event eventtype="4" ename="obj_painting_maze_dodger">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -167,7 +167,9 @@ if (!global.pause &amp;&amp; !global.dead) {
             <string>// Hurt the enemy
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
-        room_goto(rm_maze_dodger);
+        audio_stop_sound(snd_maze_dodger);
+        audio_stop_sound(snd_maze_dodger_start);
+        audio_play_sound(choose(snd_maze_dodger,snd_maze_dodger_start),100,false);
     }
 }
 </string>
@@ -352,35 +354,6 @@ if (!global.pause &amp;&amp; !global.dead) {
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_bot_one">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// Hurt the enemy
-if (!global.pause &amp;&amp; !global.dead) {
-    if (mouse_check_button_pressed(mb_left)) {
-        instance_create(x,y,obj_player_splat);
-        instance_destroy(other);
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_player">
       <action>
         <libid>1</libid>
@@ -403,6 +376,35 @@ if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(x,y,obj_player_splat);
         game_over();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bot_one">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Hurt the enemy
+if (!global.pause &amp;&amp; !global.dead) {
+    if (mouse_check_button_pressed(mb_left)) {
+        instance_create(x,y,obj_player_splat);
+        instance_destroy(other);
     }
 }
 </string>
