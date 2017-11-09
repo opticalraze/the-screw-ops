@@ -161,7 +161,16 @@
     <sprite>sprites\spr_wall_one</sprite>
     <sprite>sprites\spr_pot_one</sprite>
     <sprite>sprites\spr_table_one</sprite>
+    <sprite>sprites\spr_graffity_two</sprite>
+    <sprite>sprites\spr_graffity_one</sprite>
     <sprite>sprites\spr_poster_one</sprite>
+    <sprite>sprites\spr_intercom</sprite>
+    <sprite>sprites\spr_door_sign_one</sprite>
+    <sprite>sprites\spr_door_sign_two</sprite>
+    <sprite>sprites\spr_door_sign_three</sprite>
+    <sprite>sprites\spr_door_sign_foor</sprite>
+    <sprite>sprites\spr_door_sign_five</sprite>
+    <sprite>sprites\spr_door_sign_six</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -265,9 +274,17 @@
     <object>objects\obj_wall_one</object>
     <object>objects\obj_pot_one</object>
     <object>objects\obj_table_one</object>
+    <object>objects\obj_graffity_two</object>
     <object>objects\obj_trigger_four</object>
+    <object>objects\obj_graffity_one</object>
     <object>objects\obj_poster_one</object>
-    <object>objects\obj_trigger_five</object>
+    <object>objects\obj_door_sign_one</object>
+    <object>objects\obj_door_sign_two</object>
+    <object>objects\obj_door_sign_three</object>
+    <object>objects\obj_door_sign_four</object>
+    <object>objects\obj_door_sign_five</object>
+    <object>objects\obj_door_sign_six</object>
+    <object>objects\obj_intercom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
