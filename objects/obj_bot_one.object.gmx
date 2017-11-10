@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Set alarm[0] to 4 seconds
+            <string>/// Set alarm[0] to 2 seconds
 
-alarm[0] = 4*room_speed;
+alarm[0] = 2*room_speed;
 </string>
           </argument>
         </arguments>
