@@ -50,6 +50,8 @@
       <sound>sound\snd_maze_dodger</sound>
     </sounds>
     <sound>sound\snd_wilhelm_scream</sound>
+    <sound>sound\snd_lets_go</sound>
+    <sound>sound\snd_its_over_there</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall_two</sprite>
@@ -201,6 +203,9 @@
     <sprite>sprites\spr_cctv</sprite>
     <sprite>sprites\spr_bomb</sprite>
     <sprite>sprites\spr_clock</sprite>
+    <sprite>sprites\spr_grim_reaper</sprite>
+    <sprite>sprites\spr_computer</sprite>
+    <sprite>sprites\spr_monitor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>

@@ -28,6 +28,8 @@
             <string>/// Set alarm[0] to 2 seconds
 
 alarm[0] = 2*room_speed;
+
+audio_play_sound(snd_its_over_there,100,false);
 </string>
           </argument>
         </arguments>
@@ -51,6 +53,7 @@ alarm[0] = 2*room_speed;
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_bot_one_walk;
+audio_play_sound(snd_lets_go,100,false);
 move_towards_point(obj_door_one.x,obj_door_one.y,2);
 </string>
           </argument>
