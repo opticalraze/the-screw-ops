@@ -76,7 +76,7 @@
     <instance objName="obj_floor" x="736" y="288" name="inst_EA8F7A3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_two" x="64" y="254" name="inst_D9512059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_molding" x="32" y="256" name="inst_D55664D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_molding" x="96" y="256" name="inst_3941463A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_molding" x="64" y="256" name="inst_3941463A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_molding" x="64" y="256" name="inst_9737055A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_molding" x="128" y="256" name="inst_1F93B7C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_molding" x="192" y="256" name="inst_6F4C2EA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -102,7 +102,7 @@
     <instance objName="obj_door_three" x="320" y="254" name="inst_2EE99AC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_three" x="448" y="254" name="inst_4EC77CA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_three" x="512" y="254" name="inst_CD460DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="466" y="270" name="inst_BE1871AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="464" y="270" name="inst_BE1871AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="192" y="256" name="inst_D3C412E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="256" y="256" name="inst_996C8A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="448" y="256" name="inst_ED54096A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -173,8 +173,22 @@
     <instance objName="obj_wall_one" x="384" y="64" name="inst_FA506421" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_one" x="384" y="32" name="inst_EE4D6010" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_one" x="384" y="0" name="inst_AB043790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trigger_three" x="320" y="256" name="inst_8FA18AAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trigger_three" x="576" y="256" name="inst_89D6DE79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_painting_maze_dodger" x="144" y="256" name="inst_BB8E5686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom" x="222" y="265" name="inst_DADFF763" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom" x="286" y="265" name="inst_143DEDAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom" x="542" y="265" name="inst_18783A6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom" x="606" y="265" name="inst_2F953827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trigger_three" x="576" y="256" name="inst_CC3BD2DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_one" x="201" y="245" name="inst_F39ADB4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_two" x="266" y="245" name="inst_AA236318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_three" x="329" y="245" name="inst_B1CA27D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_four" x="457" y="245" name="inst_731593C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_five" x="521" y="245" name="inst_B7CF940A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_sign_six" x="585" y="245" name="inst_FDAF14DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom_mark" x="350" y="265" name="inst_86D4CD52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intercom_mark" x="478" y="265" name="inst_D27F1FAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trigger_three" x="320" y="256" name="inst_D49A4B8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_molding" x="96" y="256" name="inst_5505206D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

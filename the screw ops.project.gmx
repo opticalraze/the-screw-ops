@@ -56,6 +56,7 @@
     <sprite>sprites\spr_trigger_one</sprite>
     <sprite>sprites\spr_trigger_two</sprite>
     <sprite>sprites\spr_door_one</sprite>
+    <sprite>sprites\spr_vending_machine</sprite>
     <sprite>sprites\spr_door_two</sprite>
     <sprite>sprites\spr_door_three</sprite>
     <sprite>sprites\obj_door_four</sprite>
@@ -165,6 +166,7 @@
     <sprite>sprites\spr_graffity_one</sprite>
     <sprite>sprites\spr_poster_one</sprite>
     <sprite>sprites\spr_poster_two</sprite>
+    <sprite>sprites\spr_poster_three</sprite>
     <sprite>sprites\spr_intercom</sprite>
     <sprite>sprites\spr_intercom_mark</sprite>
     <sprite>sprites\spr_door_sign_one</sprite>
@@ -176,6 +178,25 @@
     <sprite>sprites\spr_jerry_can</sprite>
     <sprite>sprites\spr_enemy_two</sprite>
     <sprite>sprites\spr_bars</sprite>
+    <sprites name="Keys">
+      <sprite>sprites\spr_key_w</sprite>
+      <sprite>sprites\spr_controls</sprite>
+      <sprite>sprites\spr_key_a</sprite>
+      <sprite>sprites\spr_key_s</sprite>
+      <sprite>sprites\spr_key_d</sprite>
+      <sprite>sprites\spr_key_f</sprite>
+      <sprite>sprites\spr_key_esc</sprite>
+      <sprite>sprites\spr_key_f11</sprite>
+      <sprite>sprites\spr_key_ctrl</sprite>
+      <sprite>sprites\spr_key_shift</sprite>
+      <sprite>sprites\spr_key_space</sprite>
+    </sprites>
+    <sprite>sprites\spr_key_pad</sprite>
+    <sprite>sprites\spr_key_pad_old_two</sprite>
+    <sprite>sprites\spr_key_pad_old</sprite>
+    <sprite>sprites\spr_rock</sprite>
+    <sprite>sprites\spr_throne</sprite>
+    <sprite>sprites\spr_throne_base</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -283,6 +304,8 @@
     <object>objects\obj_trigger_four</object>
     <object>objects\obj_graffity_one</object>
     <object>objects\obj_poster_one</object>
+    <object>objects\obj_poster_two</object>
+    <object>objects\obj_poster_three</object>
     <object>objects\obj_door_sign_one</object>
     <object>objects\obj_door_sign_two</object>
     <object>objects\obj_door_sign_three</object>
@@ -292,6 +315,9 @@
     <object>objects\obj_intercom</object>
     <object>objects\obj_intercom_mark</object>
     <object>objects\obj_jerry_can</object>
+    <object>objects\obj_rock</object>
+    <object>objects\obj_throne_base</object>
+    <object>objects\obj_throne</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
@@ -300,6 +326,7 @@
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
+    <room>rooms\room11</room>
     <room>rooms\rm_building</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
