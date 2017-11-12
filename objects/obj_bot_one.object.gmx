@@ -74,7 +74,8 @@ move_towards_point(obj_door_one.x,obj_door_one.y,2);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>audio_play_sound(snd_wilhelm_scream, 100, false);
+instance_destroy();
 </string>
           </argument>
         </arguments>

@@ -49,6 +49,7 @@
       <sound>sound\snd_maze_dodger_start</sound>
       <sound>sound\snd_maze_dodger</sound>
     </sounds>
+    <sound>sound\snd_wilhelm_scream</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall_two</sprite>
@@ -326,8 +327,8 @@
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
     <room>rooms\rm_five</room>
-    <room>rooms\room11</room>
     <room>rooms\rm_building</room>
+    <room>rooms\room11</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
     <room>rooms\rm_credits</room>
