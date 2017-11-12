@@ -198,6 +198,9 @@
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_throne</sprite>
     <sprite>sprites\spr_throne_base</sprite>
+    <sprite>sprites\spr_cctv</sprite>
+    <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_clock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
