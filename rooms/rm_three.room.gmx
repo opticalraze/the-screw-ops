@@ -96,6 +96,7 @@
     <instance objName="obj_jerry_can" x="288" y="256" name="inst_0EB47F70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="320" y="256" name="inst_A037B3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pot" x="240" y="277" name="inst_EB35A438" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_three" x="192" y="256" name="inst_39A43500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

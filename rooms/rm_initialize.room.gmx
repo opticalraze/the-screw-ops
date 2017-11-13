@@ -55,6 +55,7 @@ room_goto_next();</code>
     <instance objName="obj_options" x="128" y="32" name="inst_6E480C42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pause" x="192" y="64" name="inst_0AE01514" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="256" y="32" name="inst_41F8A5BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_initialize" x="288" y="32" name="inst_7983CA84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

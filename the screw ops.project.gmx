@@ -54,25 +54,100 @@
     <sound>sound\snd_its_over_there</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_wall_two</sprite>
-    <sprite>sprites\spr_floor_one</sprite>
-    <sprite>sprites\spr_trigger_one</sprite>
-    <sprite>sprites\spr_trigger_two</sprite>
-    <sprite>sprites\spr_door_one</sprite>
-    <sprite>sprites\spr_vending_machine</sprite>
-    <sprite>sprites\spr_door_two</sprite>
-    <sprite>sprites\spr_door_three</sprite>
-    <sprite>sprites\obj_door_four</sprite>
-    <sprite>sprites\spr_elevator_button</sprite>
-    <sprite>sprites\spr_elevator_sign</sprite>
-    <sprite>sprites\obj_door_five</sprite>
-    <sprite>sprites\obj_door_five_plus</sprite>
-    <sprite>sprites\spr_exit_sign</sprite>
-    <sprites name="Main">
-      <sprite>sprites\spr_floor</sprite>
-      <sprite>sprites\spr_door</sprite>
+    <sprites name="spr_enemy">
+      <sprites name="spr_enemy_one">
+        <sprite>sprites\spr_enemy_one</sprite>
+      </sprites>
+      <sprites name="spr_enemy_three">
+        <sprite>sprites\spr_enemy_three</sprite>
+      </sprites>
+      <sprites name="spr_old_enemy">
+        <sprite>sprites\spr_old_enemy_two_idle</sprite>
+        <sprite>sprites\spr_old_enemy_two_walk</sprite>
+        <sprite>sprites\spr_old_enemy_three_idle</sprite>
+        <sprite>sprites\spr_old_enemy_one_jump</sprite>
+        <sprite>sprites\spr_old_enemy_two_jump</sprite>
+        <sprite>sprites\spr_old_enemy_one_fall</sprite>
+        <sprite>sprites\spr_old_enemy_two_fall</sprite>
+        <sprite>sprites\spr_old_enemy_idle</sprite>
+      </sprites>
     </sprites>
-    <sprites name="Bots">
+    <sprites name="old stuff">
+      <sprite>sprites\spr_enemy_two</sprite>
+      <sprite>sprites\spr_cctv</sprite>
+      <sprite>sprites\spr_die</sprite>
+      <sprite>sprites\spr_player_head2</sprite>
+      <sprite>sprites\spr_head_3</sprite>
+      <sprite>sprites\spr_player_head</sprite>
+      <sprite>sprites\spr_player_head3</sprite>
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_window</sprite>
+      <sprites name="Furniture">
+        <sprite>sprites\spr_table</sprite>
+        <sprite>sprites\spr_chair</sprite>
+        <sprite>sprites\spr_bench</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="spr_wall">
+      <sprite>sprites\spr_wall_one</sprite>
+    </sprites>
+    <sprites name="spr_keys">
+      <sprite>sprites\spr_key_w</sprite>
+      <sprite>sprites\spr_controls</sprite>
+      <sprite>sprites\spr_key_a</sprite>
+      <sprite>sprites\spr_key_s</sprite>
+      <sprite>sprites\spr_key_d</sprite>
+      <sprite>sprites\spr_key_f</sprite>
+      <sprite>sprites\spr_key_esc</sprite>
+      <sprite>sprites\spr_key_f11</sprite>
+      <sprite>sprites\spr_key_ctrl</sprite>
+      <sprite>sprites\spr_key_shift</sprite>
+      <sprite>sprites\spr_key_space</sprite>
+    </sprites>
+    <sprites name="spr_poster">
+      <sprite>sprites\spr_poster_one</sprite>
+      <sprite>sprites\spr_poster_two</sprite>
+      <sprite>sprites\spr_poster_three</sprite>
+    </sprites>
+    <sprites name="spr_graffity">
+      <sprite>sprites\spr_graffity_one</sprite>
+      <sprite>sprites\spr_graffity_two</sprite>
+    </sprites>
+    <sprites name="spr_painting">
+      <sprite>sprites\spr_painting</sprite>
+      <sprite>sprites\spr_painting_md</sprite>
+    </sprites>
+    <sprites name="spr_trigger">
+      <sprite>sprites\spr_trigger_one</sprite>
+      <sprite>sprites\spr_trigger_two</sprite>
+    </sprites>
+    <sprites name="spr_floor">
+      <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr_floor_two</sprite>
+      <sprite>sprites\spr_floor_one</sprite>
+    </sprites>
+    <sprites name="spr_door">
+      <sprite>sprites\spr_door_one</sprite>
+      <sprite>sprites\spr_door_two</sprite>
+      <sprite>sprites\obj_door_five</sprite>
+      <sprite>sprites\obj_door_five_plus</sprite>
+      <sprite>sprites\spr_exit_sign</sprite>
+      <sprite>sprites\spr_elevator_sign</sprite>
+      <sprite>sprites\spr_elevator_button</sprite>
+      <sprite>sprites\spr_door_three</sprite>
+      <sprite>sprites\obj_door_four</sprite>
+      <sprites name="spr_door_sign">
+        <sprite>sprites\spr_door_sign_one</sprite>
+        <sprite>sprites\spr_door_sign_two</sprite>
+        <sprite>sprites\spr_door_sign_three</sprite>
+        <sprite>sprites\spr_door_sign_foor</sprite>
+        <sprite>sprites\spr_door_sign_five</sprite>
+        <sprite>sprites\spr_door_sign_six</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\spr_wall_two</sprite>
+    <sprite>sprites\spr_vending_machine</sprite>
+    <sprites name="spr_bot">
       <sprite>sprites\spr_bot_one_idle</sprite>
       <sprite>sprites\spr_bot_one_look</sprite>
       <sprite>sprites\spr_bot_one_crouch</sprite>
@@ -97,30 +172,6 @@
       <sprite>sprites\spr_player_walk</sprite>
       <sprite>sprites\spr_player_sprint</sprite>
     </sprites>
-    <sprites name="Enemy">
-      <sprite>sprites\spr_enemy_one</sprite>
-      <sprite>sprites\spr_enemy_two_idle</sprite>
-      <sprite>sprites\spr_enemy_two_walk</sprite>
-      <sprite>sprites\spr_enemy_three_idle</sprite>
-      <sprite>sprites\spr_enemy_one_jump</sprite>
-      <sprite>sprites\spr_enemy_two_jump</sprite>
-      <sprite>sprites\spr_enemy_one_fall</sprite>
-      <sprite>sprites\spr_enemy_two_fall</sprite>
-      <sprite>sprites\spr_enemy_idle</sprite>
-    </sprites>
-    <sprites name="Old">
-      <sprite>sprites\spr_die</sprite>
-      <sprite>sprites\spr_player_head3</sprite>
-      <sprite>sprites\spr_player_head2</sprite>
-      <sprite>sprites\spr_head_3</sprite>
-      <sprite>sprites\spr_player_head</sprite>
-    </sprites>
-    <sprites name="Furniture">
-      <sprite>sprites\spr_table</sprite>
-      <sprite>sprites\spr_chair</sprite>
-      <sprite>sprites\spr_bench</sprite>
-      <sprite>sprites\spr_window</sprite>
-    </sprites>
     <sprites name="Objects">
       <sprite>sprites\spr_ladder</sprite>
       <sprite>sprites\spr_mine_active</sprite>
@@ -128,8 +179,6 @@
       <sprite>sprites\spr_mine_idle</sprite>
       <sprite>sprites\spr_mine_two_idle</sprite>
       <sprite>sprites\spr_mine_two_active</sprite>
-      <sprite>sprites\spr_painting</sprite>
-      <sprite>sprites\spr_painting_md</sprite>
       <sprite>sprites\spr_spike</sprite>
       <sprite>sprites\spr_pot</sprite>
       <sprite>sprites\spr_balloon</sprite>
@@ -162,45 +211,18 @@
     </sprites>
     <sprite>sprites\spr_molding</sprite>
     <sprite>sprites\spr_lightswitch</sprite>
-    <sprite>sprites\spr_wall_one</sprite>
     <sprite>sprites\spr_pot_one</sprite>
     <sprite>sprites\spr_table_one</sprite>
-    <sprite>sprites\spr_graffity_two</sprite>
-    <sprite>sprites\spr_graffity_one</sprite>
-    <sprite>sprites\spr_poster_one</sprite>
-    <sprite>sprites\spr_poster_two</sprite>
-    <sprite>sprites\spr_poster_three</sprite>
     <sprite>sprites\spr_intercom</sprite>
     <sprite>sprites\spr_intercom_mark</sprite>
-    <sprite>sprites\spr_door_sign_one</sprite>
-    <sprite>sprites\spr_door_sign_two</sprite>
-    <sprite>sprites\spr_door_sign_three</sprite>
-    <sprite>sprites\spr_door_sign_foor</sprite>
-    <sprite>sprites\spr_door_sign_five</sprite>
-    <sprite>sprites\spr_door_sign_six</sprite>
     <sprite>sprites\spr_jerry_can</sprite>
-    <sprite>sprites\spr_enemy_two</sprite>
     <sprite>sprites\spr_bars</sprite>
-    <sprites name="Keys">
-      <sprite>sprites\spr_key_w</sprite>
-      <sprite>sprites\spr_controls</sprite>
-      <sprite>sprites\spr_key_a</sprite>
-      <sprite>sprites\spr_key_s</sprite>
-      <sprite>sprites\spr_key_d</sprite>
-      <sprite>sprites\spr_key_f</sprite>
-      <sprite>sprites\spr_key_esc</sprite>
-      <sprite>sprites\spr_key_f11</sprite>
-      <sprite>sprites\spr_key_ctrl</sprite>
-      <sprite>sprites\spr_key_shift</sprite>
-      <sprite>sprites\spr_key_space</sprite>
-    </sprites>
     <sprite>sprites\spr_key_pad</sprite>
     <sprite>sprites\spr_key_pad_old_two</sprite>
     <sprite>sprites\spr_key_pad_old</sprite>
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_throne</sprite>
     <sprite>sprites\spr_throne_base</sprite>
-    <sprite>sprites\spr_cctv</sprite>
     <sprite>sprites\spr_bomb</sprite>
     <sprite>sprites\spr_clock</sprite>
     <sprite>sprites\spr_grim_reaper</sprite>
@@ -235,6 +257,7 @@
       <object>objects\obj_bot_two</object>
       <object>objects\obj_rm_one_view</object>
       <object>objects\obj_floor_one</object>
+      <object>objects\obj_floor_two</object>
       <object>objects\obj_player_look</object>
     </objects>
     <object>objects\obj_player</object>
@@ -327,6 +350,9 @@
     <object>objects\obj_rock</object>
     <object>objects\obj_throne_base</object>
     <object>objects\obj_throne</object>
+    <object>objects\obj_enemy_three</object>
+    <object>objects\obj_initialize</object>
+    <object>objects\obj_rm_three</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
