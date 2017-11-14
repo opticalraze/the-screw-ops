@@ -61,16 +61,6 @@
       <sprites name="spr_enemy_three">
         <sprite>sprites\spr_enemy_three</sprite>
       </sprites>
-      <sprites name="spr_old_enemy">
-        <sprite>sprites\spr_old_enemy_two_idle</sprite>
-        <sprite>sprites\spr_old_enemy_two_walk</sprite>
-        <sprite>sprites\spr_old_enemy_three_idle</sprite>
-        <sprite>sprites\spr_old_enemy_one_jump</sprite>
-        <sprite>sprites\spr_old_enemy_two_jump</sprite>
-        <sprite>sprites\spr_old_enemy_one_fall</sprite>
-        <sprite>sprites\spr_old_enemy_two_fall</sprite>
-        <sprite>sprites\spr_old_enemy_idle</sprite>
-      </sprites>
     </sprites>
     <sprites name="old stuff">
       <sprite>sprites\spr_enemy_two</sprite>
@@ -87,9 +77,23 @@
         <sprite>sprites\spr_chair</sprite>
         <sprite>sprites\spr_bench</sprite>
       </sprites>
+      <sprite>sprites\spr_keypad_old_two</sprite>
+      <sprite>sprites\spr_keypad_old</sprite>
+      <sprite>sprites\spr_billboard</sprite>
+      <sprites name="spr_old_enemy">
+        <sprite>sprites\spr_old_enemy_two_idle</sprite>
+        <sprite>sprites\spr_old_enemy_two_walk</sprite>
+        <sprite>sprites\spr_old_enemy_three_idle</sprite>
+        <sprite>sprites\spr_old_enemy_one_jump</sprite>
+        <sprite>sprites\spr_old_enemy_two_jump</sprite>
+        <sprite>sprites\spr_old_enemy_one_fall</sprite>
+        <sprite>sprites\spr_old_enemy_two_fall</sprite>
+        <sprite>sprites\spr_old_enemy_idle</sprite>
+      </sprites>
     </sprites>
     <sprites name="spr_wall">
       <sprite>sprites\spr_wall_one</sprite>
+      <sprite>sprites\spr_wall_two</sprite>
     </sprites>
     <sprites name="spr_keys">
       <sprite>sprites\spr_key_w</sprite>
@@ -145,8 +149,19 @@
         <sprite>sprites\spr_door_sign_six</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_wall_two</sprite>
-    <sprite>sprites\spr_vending_machine</sprite>
+    <sprites name="aesthetics">
+      <sprite>sprites\spr_vending_machine</sprite>
+      <sprite>sprites\spr_molding</sprite>
+      <sprite>sprites\spr_lightswitch</sprite>
+      <sprite>sprites\spr_intercom</sprite>
+      <sprite>sprites\spr_intercom_mark</sprite>
+      <sprite>sprites\spr_rock</sprite>
+      <sprite>sprites\spr_computer</sprite>
+      <sprite>sprites\spr_monitor</sprite>
+      <sprite>sprites\spr_clock</sprite>
+      <sprite>sprites\spr_throne</sprite>
+      <sprite>sprites\spr_throne_base</sprite>
+    </sprites>
     <sprites name="spr_bot">
       <sprite>sprites\spr_bot_one_idle</sprite>
       <sprite>sprites\spr_bot_one_look</sprite>
@@ -209,25 +224,14 @@
     <sprites name="Boss">
       <sprite>sprites\spr_boss</sprite>
     </sprites>
-    <sprite>sprites\spr_molding</sprite>
-    <sprite>sprites\spr_lightswitch</sprite>
     <sprite>sprites\spr_pot_one</sprite>
     <sprite>sprites\spr_table_one</sprite>
-    <sprite>sprites\spr_intercom</sprite>
-    <sprite>sprites\spr_intercom_mark</sprite>
     <sprite>sprites\spr_jerry_can</sprite>
     <sprite>sprites\spr_bars</sprite>
-    <sprite>sprites\spr_key_pad</sprite>
-    <sprite>sprites\spr_key_pad_old_two</sprite>
-    <sprite>sprites\spr_key_pad_old</sprite>
-    <sprite>sprites\spr_rock</sprite>
-    <sprite>sprites\spr_throne</sprite>
-    <sprite>sprites\spr_throne_base</sprite>
+    <sprite>sprites\spr_keypad_gui</sprite>
+    <sprite>sprites\spr_bomb_gui</sprite>
     <sprite>sprites\spr_bomb</sprite>
-    <sprite>sprites\spr_clock</sprite>
     <sprite>sprites\spr_grim_reaper</sprite>
-    <sprite>sprites\spr_computer</sprite>
-    <sprite>sprites\spr_monitor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
