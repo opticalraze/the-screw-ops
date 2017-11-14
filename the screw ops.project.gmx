@@ -94,6 +94,7 @@
         <sprite>sprites\spr_old_enemy_two_fall</sprite>
         <sprite>sprites\spr_old_enemy_idle</sprite>
       </sprites>
+      <sprite>sprites\spr_nuke_old</sprite>
     </sprites>
     <sprites name="spr_wall">
       <sprite>sprites\spr_wall_one</sprite>
@@ -236,6 +237,8 @@
     <sprite>sprites\spr_bomb_gui</sprite>
     <sprite>sprites\spr_bomb</sprite>
     <sprite>sprites\spr_grim_reaper</sprite>
+    <sprite>sprites\spr_nuke_one</sprite>
+    <sprite>sprites\spr_nuke_two</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -295,6 +298,7 @@
     <objects name="Effects">
       <object>objects\obj_explosion_mark</object>
       <object>objects\obj_explosion</object>
+      <object>objects\obj_explosion_nuke</object>
       <object>objects\obj_player_splat</object>
       <object>objects\obj_bullet_hole</object>
       <object>objects\obj_enemy_splat</object>
@@ -361,6 +365,7 @@
     <object>objects\obj_enemy_three</object>
     <object>objects\obj_initialize</object>
     <object>objects\obj_rm_three</object>
+    <object>objects\obj_nuke_one</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
