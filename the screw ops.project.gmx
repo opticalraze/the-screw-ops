@@ -49,9 +49,13 @@
       <sound>sound\snd_maze_dodger_start</sound>
       <sound>sound\snd_maze_dodger</sound>
     </sounds>
+    <sound>sound\snd_lets_go_two</sound>
     <sound>sound\snd_wilhelm_scream</sound>
     <sound>sound\snd_lets_go</sound>
     <sound>sound\snd_its_over_there</sound>
+    <sound>sound\snd_its_over_there_two</sound>
+    <sound>sound\snd_ya_its_over</sound>
+    <sound>sound\snd_get_down</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="spr_enemy">
