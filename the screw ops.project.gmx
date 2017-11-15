@@ -259,9 +259,10 @@
     <script>scripts\scr_shadow.gml</script>
   </scripts>
   <objects name="objects">
-    <objects name="Cutscene two">
-      <object>objects\obj_bot_three</object>
-      <object>objects\obj_cutscene_two</object>
+    <objects name="obj_floor">
+      <object>objects\obj_floor</object>
+      <object>objects\obj_floor_one</object>
+      <object>objects\obj_floor_two</object>
     </objects>
     <objects name="Cutscene one">
       <object>objects\obj_bot_one</object>
@@ -269,8 +270,6 @@
       <object>objects\obj_trigger_two</object>
       <object>objects\obj_bot_two</object>
       <object>objects\obj_rm_one_view</object>
-      <object>objects\obj_floor_one</object>
-      <object>objects\obj_floor_two</object>
       <object>objects\obj_player_look</object>
     </objects>
     <object>objects\obj_player</object>
@@ -285,7 +284,6 @@
       <object>objects\obj_window</object>
       <object>objects\obj_pot</object>
       <object>objects\obj_painting</object>
-      <object>objects\obj_floor</object>
       <object>objects\obj_door</object>
       <object>objects\obj_die</object>
       <object>objects\obj_cursor</object>
@@ -374,15 +372,27 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
-    <room>rooms\rm_one</room>
-    <room>rooms\rm_two</room>
-    <room>rooms\rm_three</room>
-    <room>rooms\rm_four</room>
-    <room>rooms\rm_five</room>
-    <room>rooms\rm_boss_one</room>
+    <rooms name="rm_main">
+      <room>rooms\rm_main_one</room>
+      <room>rooms\rm_main_two</room>
+      <room>rooms\rm_main_three</room>
+    </rooms>
+    <rooms name="rm_level">
+      <room>rooms\rm_level_one</room>
+      <room>rooms\rm_level_two</room>
+      <room>rooms\rm_level_three</room>
+      <room>rooms\rm_level_four</room>
+      <room>rooms\rm_level_five</room>
+      <room>rooms\rm_level_six</room>
+    </rooms>
+    <rooms name="rm_boss">
+      <room>rooms\rm_boss_one</room>
+    </rooms>
+    <rooms name="testing">
+      <room>rooms\room11</room>
+      <room>rooms\rm_game</room>
+    </rooms>
     <room>rooms\rm_building</room>
-    <room>rooms\room11</room>
-    <room>rooms\rm_game</room>
     <room>rooms\rm_game_final</room>
     <room>rooms\rm_credits</room>
   </rooms>
