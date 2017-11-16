@@ -241,6 +241,13 @@
     <sprite>sprites\spr_grim_reaper</sprite>
     <sprite>sprites\spr_nuke_one</sprite>
     <sprite>sprites\spr_nuke_two</sprite>
+    <sprite>sprites\spr_cursor_pointer</sprite>
+    <sprite>sprites\spr_rm_elevator_one</sprite>
+    <sprite>sprites\spr_main_menu</sprite>
+    <sprite>sprites\spr_crate</sprite>
+    <sprite>sprites\spr_target_one</sprite>
+    <sprite>sprites\spr_target_two</sprite>
+    <sprite>sprites\spr_barrel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -251,6 +258,7 @@
     <background>background\bg_three</background>
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
+    <background>background\bg_elevator</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -286,6 +294,7 @@
       <object>objects\obj_painting</object>
       <object>objects\obj_door</object>
       <object>objects\obj_die</object>
+      <object>objects\obj_cursor_pointer</object>
       <object>objects\obj_cursor</object>
       <object>objects\obj_spike</object>
       <object>objects\obj_mine_two</object>
@@ -368,6 +377,7 @@
     <object>objects\obj_throne_base</object>
     <object>objects\obj_throne</object>
     <object>objects\obj_enemy_three</object>
+    <object>objects\obj_rm_elevator</object>
     <object>objects\obj_nuke_one</object>
   </objects>
   <rooms name="rooms">
@@ -388,13 +398,15 @@
     <rooms name="rm_boss">
       <room>rooms\rm_boss_one</room>
     </rooms>
+    <room>rooms\rm_tutorial</room>
+    <room>rooms\rm_elevator</room>
+    <room>rooms\rm_credits</room>
     <rooms name="testing">
       <room>rooms\room11</room>
       <room>rooms\rm_game</room>
+      <room>rooms\rm_game_final</room>
+      <room>rooms\rm_building</room>
     </rooms>
-    <room>rooms\rm_building</room>
-    <room>rooms\rm_game_final</room>
-    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
