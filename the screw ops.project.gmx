@@ -43,6 +43,7 @@
       <sound>sound\snd_explosion</sound>
       <sound>sound\snd_fall</sound>
       <sound>sound\snd_dead</sound>
+      <sound>sound\snd_pop_two</sound>
       <sound>sound\snd_pop</sound>
     </sounds>
     <sounds name="Maze Dodger">
@@ -247,7 +248,11 @@
     <sprite>sprites\spr_crate</sprite>
     <sprite>sprites\spr_target_one</sprite>
     <sprite>sprites\spr_target_two</sprite>
-    <sprite>sprites\spr_barrel</sprite>
+    <sprite>sprites\spr_target_three</sprite>
+    <sprite>sprites\spr_barrel_one</sprite>
+    <sprite>sprites\spr_range</sprite>
+    <sprite>sprites\spr_table_two</sprite>
+    <sprite>sprites\spr_barrel_two</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -259,6 +264,8 @@
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
     <background>background\bg_elevator</background>
+    <background>background\bg_tunnel_one</background>
+    <background>background\bg_trippy</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -267,12 +274,25 @@
     <script>scripts\scr_shadow.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="room_view">
+      <object>objects\obj_rm_tutorial_view</object>
+    </objects>
+    <objects name="room_initialize">
+      <object>objects\obj_initialize</object>
+      <object>objects\obj_rm_one</object>
+      <object>objects\obj_trippy</object>
+      <object>objects\obj_rm_two</object>
+      <object>objects\obj_rm_three</object>
+      <object>objects\obj_rm_elevator</object>
+      <object>objects\obj_rm_tutorial</object>
+      <object>objects\obj_rm_boss_one</object>
+    </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
       <object>objects\obj_floor_one</object>
       <object>objects\obj_floor_two</object>
     </objects>
-    <objects name="Cutscene one">
+    <objects name="cutscene_one">
       <object>objects\obj_bot_one</object>
       <object>objects\obj_trigger_one</object>
       <object>objects\obj_trigger_two</object>
@@ -328,11 +348,6 @@
       <object>objects\obj_crib</object>
     </objects>
     <object>objects\obj_painting_maze_dodger</object>
-    <objects name="Room">
-      <object>objects\obj_rm_boss_one</object>
-      <object>objects\obj_rm_three</object>
-      <object>objects\obj_initialize</object>
-    </objects>
     <objects name="Boss">
       <object>objects\obj_boss</object>
       <object>objects\obj_camera</object>
@@ -350,10 +365,6 @@
     </objects>
     <object>objects\obj_molding</object>
     <object>objects\obj_lightswitch</object>
-    <objects name="Sound">
-      <object>objects\obj_music_one</object>
-      <object>objects\obj_rm_two</object>
-    </objects>
     <object>objects\obj_trigger_three</object>
     <object>objects\obj_wall_one</object>
     <object>objects\obj_pot_one</object>
@@ -377,11 +388,17 @@
     <object>objects\obj_throne_base</object>
     <object>objects\obj_throne</object>
     <object>objects\obj_enemy_three</object>
-    <object>objects\obj_rm_elevator</object>
+    <object>objects\obj_barrel_one</object>
+    <object>objects\obj_target_one</object>
+    <object>objects\obj_target_two</object>
+    <object>objects\obj_range</object>
+    <object>objects\obj_table_two</object>
     <object>objects\obj_nuke_one</object>
+    <object>objects\obj_trigger_five</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_tutorial</room>
     <rooms name="rm_main">
       <room>rooms\rm_main_one</room>
       <room>rooms\rm_main_two</room>
@@ -398,9 +415,11 @@
     <rooms name="rm_boss">
       <room>rooms\rm_boss_one</room>
     </rooms>
-    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_elevator</room>
+    <room>rooms\rm_moon</room>
     <room>rooms\rm_credits</room>
+    <room>rooms\rm_tunnel</room>
+    <room>rooms\rm_trippy</room>
     <rooms name="testing">
       <room>rooms\room11</room>
       <room>rooms\rm_game</room>

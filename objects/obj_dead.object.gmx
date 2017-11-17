@@ -156,7 +156,8 @@ message = "Press any key to quit";
           <argument>
             <kind>1</kind>
             <string>if (global.dead) {
-    game_restart();
+    global.dead = 0;
+    room_goto(rm_trippy);
 }
 </string>
           </argument>

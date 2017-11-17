@@ -25,14 +25,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Destroy regular cursor object
+            <string>/// Initialize the rm_elevator room
+
+// If cursor object exists, destroy it
 if instance_exists(obj_cursor)
 {
-    instance_destroy(obj_cursor);
+    instance_destroy(obj_cursor)
 }
 
-// Create pointer cursor object
-instance_create(x,y,obj_cursor_pointer);
+// If cursor pointer object doesn't exist, create it
+if !instance_exists(obj_cursor_pointer)
+{
+    instance_create(mouse_x,mouse_y,obj_cursor_pointer)
+}
+
+// If obj_gui exists, destroy it
+if instance_exists(obj_gui)
+{
+    instance_destroy(obj_gui)
+}
 </string>
           </argument>
         </arguments>

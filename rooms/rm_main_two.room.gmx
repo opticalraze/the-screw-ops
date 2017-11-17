@@ -103,9 +103,7 @@
     <instance objName="obj_door_three" x="448" y="254" name="inst_4EC77CA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_three" x="512" y="254" name="inst_CD460DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="80" y="270" name="inst_BE1871AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cursor" x="96" y="32" name="inst_EF3A8236" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_music_one" x="128" y="32" name="inst_C9B89F09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_two" x="160" y="32" name="inst_0EBFACFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_two" x="32" y="0" name="inst_C9B89F09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="192" y="256" name="inst_D3C412E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="256" y="256" name="inst_996C8A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_three" x="448" y="256" name="inst_ED54096A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

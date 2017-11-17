@@ -25,33 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//image_index = 0;
-//image_speed = 0;
+            <string>/// Set variables
+reload = 0;
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>reload</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -120,6 +96,66 @@ if (reload = 0) {
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_target_two">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Make the sound effect
+if (!global.pause &amp;&amp; !global.dead) 
+{
+    if (mouse_check_button_pressed(mb_left)) 
+    {
+        audio_play_sound(snd_pop_two, 100, false);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_target_one">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Make the sound effect
+if (!global.pause &amp;&amp; !global.dead) 
+{
+    if (mouse_check_button_pressed(mb_left)) 
+    {
+        audio_play_sound(snd_pop_two, 100, false);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_jerry_can">
       <action>
         <libid>1</libid>
@@ -137,7 +173,7 @@ if (reload = 0) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Create the explosion
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(other.x, other.y, obj_explosion);
@@ -196,7 +232,7 @@ if (!global.pause &amp;&amp; !global.dead) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Make a sound effect
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         audio_stop_sound(snd_maze_dodger);
@@ -226,7 +262,7 @@ if (!global.pause &amp;&amp; !global.dead) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Create an explosion
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(other.x, other.y, obj_explosion);
@@ -283,7 +319,7 @@ if (!global.pause &amp;&amp; !global.dead) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Break the pot
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_destroy(other);
@@ -369,7 +405,7 @@ if (!global.pause &amp;&amp; !global.dead) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Pop the balloon and increase health
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_destroy(other);
@@ -403,40 +439,11 @@ if (!global.pause &amp;&amp; !global.dead) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Hurt the enemy
+            <string>// Hurt the player
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(x,y,obj_player_splat);
         game_over();
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_bot_one">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// Hurt the enemy
-if (!global.pause &amp;&amp; !global.dead) {
-    if (mouse_check_button_pressed(mb_left)) {
-        instance_create(x,y,obj_player_splat);
-        instance_destroy(other);
     }
 }
 </string>
