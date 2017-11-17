@@ -59,6 +59,8 @@
     <sound>sound\snd_get_down</sound>
     <sound>sound\snd_warning_siren</sound>
     <sound>sound\snd_bomb_drop</sound>
+    <sound>sound\snd_pew</sound>
+    <sound>sound\snd_thunder</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="spr_enemy">
@@ -197,6 +199,8 @@
     </sprites>
     <sprites name="Objects">
       <sprite>sprites\spr_ladder</sprite>
+      <sprite>sprites\spr_ladder_one</sprite>
+      <sprite>sprites\spr_ladder_two</sprite>
       <sprite>sprites\spr_mine_active</sprite>
       <sprite>sprites\spr_mine_deactivated</sprite>
       <sprite>sprites\spr_mine_idle</sprite>
@@ -253,6 +257,7 @@
     <sprite>sprites\spr_range</sprite>
     <sprite>sprites\spr_table_two</sprite>
     <sprite>sprites\spr_barrel_two</sprite>
+    <sprite>sprites\spr_teleporter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -320,7 +325,8 @@
       <object>objects\obj_mine_two</object>
       <object>objects\obj_bench</object>
       <object>objects\obj_test</object>
-      <object>objects\obj_ladder</object>
+      <object>objects\obj_ladder_one</object>
+      <object>objects\obj_ladder_two</object>
       <object>objects\obj_enemy</object>
       <object>objects\obj_mine</object>
     </objects>

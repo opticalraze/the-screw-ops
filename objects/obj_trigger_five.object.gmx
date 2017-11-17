@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Go to the previous room
+audio_play_sound(snd_thunder,100,false);
 room_goto(global.roomcamefrom);
 </string>
           </argument>
