@@ -271,6 +271,7 @@
     <background>background\bg_elevator</background>
     <background>background\bg_tunnel_one</background>
     <background>background\bg_trippy</background>
+    <background>background\bg_trippy_two</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -325,6 +326,7 @@
       <object>objects\obj_mine_two</object>
       <object>objects\obj_bench</object>
       <object>objects\obj_test</object>
+      <object>objects\obj_ladder</object>
       <object>objects\obj_ladder_one</object>
       <object>objects\obj_ladder_two</object>
       <object>objects\obj_enemy</object>
