@@ -25,7 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_f_key();
+            <string>if (place_meeting(x,y,obj_player))
+{
+    if (!instance_exists(obj_f_key_one))
+    {
+        instance_create(x+16,y-8,obj_f_key_one)
+    }
+}
+else
+{
+    if (instance_exists(obj_f_key_one))
+    {
+        instance_destroy(obj_f_key_one)
+    }
+}
 </string>
           </argument>
         </arguments>

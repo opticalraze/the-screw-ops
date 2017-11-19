@@ -61,6 +61,7 @@
     <sound>sound\snd_bomb_drop</sound>
     <sound>sound\snd_pew</sound>
     <sound>sound\snd_thunder</sound>
+    <sound>sound\snd_trippy</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="spr_enemy">
@@ -225,7 +226,6 @@
       <sprite>sprites\spr_barrel_one</sprite>
       <sprite>sprites\spr_barrel_two</sprite>
       <sprite>sprites\spr_crate</sprite>
-      <sprite>sprites\spr_range</sprite>
       <sprite>sprites\spr_teleporter</sprite>
       <sprite>sprites\spr_jerry_can</sprite>
     </sprites>
@@ -319,6 +319,7 @@
   <objects name="objects">
     <objects name="room_view">
       <object>objects\obj_rm_tutorial_view</object>
+      <object>objects\obj_rm_secret_one_view</object>
     </objects>
     <objects name="room_initialize">
       <object>objects\obj_initialize</object>
@@ -328,6 +329,8 @@
       <object>objects\obj_rm_three</object>
       <object>objects\obj_rm_elevator</object>
       <object>objects\obj_rm_tutorial</object>
+      <object>objects\obj_rm_secret_one</object>
+      <object>objects\obj_rm_secret_two</object>
       <object>objects\obj_rm_boss_one</object>
     </objects>
     <objects name="obj_floor">
@@ -420,24 +423,33 @@
     <object>objects\obj_poster_one</object>
     <object>objects\obj_poster_two</object>
     <object>objects\obj_poster_three</object>
-    <object>objects\obj_door_sign_one</object>
-    <object>objects\obj_door_sign_two</object>
-    <object>objects\obj_door_sign_three</object>
-    <object>objects\obj_door_sign_four</object>
-    <object>objects\obj_door_sign_five</object>
-    <object>objects\obj_door_sign_six</object>
-    <object>objects\obj_intercom</object>
-    <object>objects\obj_intercom_mark</object>
+    <objects name="obj_door_sign">
+      <object>objects\obj_door_sign_one</object>
+      <object>objects\obj_door_sign_two</object>
+      <object>objects\obj_door_sign_three</object>
+      <object>objects\obj_door_sign_four</object>
+      <object>objects\obj_door_sign_five</object>
+      <object>objects\obj_door_sign_six</object>
+    </objects>
+    <objects name="obj_intercom">
+      <object>objects\obj_intercom</object>
+      <object>objects\obj_intercom_mark</object>
+    </objects>
     <object>objects\obj_jerry_can</object>
     <object>objects\obj_rock</object>
-    <object>objects\obj_throne_base</object>
-    <object>objects\obj_throne</object>
+    <objects name="obj_throne">
+      <object>objects\obj_throne</object>
+      <object>objects\obj_throne_base</object>
+    </objects>
     <object>objects\obj_enemy_three</object>
-    <object>objects\obj_barrel_one</object>
-    <object>objects\obj_barrel_two</object>
-    <object>objects\obj_target_one</object>
-    <object>objects\obj_target_two</object>
-    <object>objects\obj_range</object>
+    <objects name="obj_barrel">
+      <object>objects\obj_barrel_one</object>
+      <object>objects\obj_barrel_two</object>
+    </objects>
+    <objects name="obj_target">
+      <object>objects\obj_target_one</object>
+      <object>objects\obj_target_two</object>
+    </objects>
     <object>objects\obj_table_two</object>
     <object>objects\obj_nuke_one</object>
     <object>objects\obj_trigger_five</object>
@@ -459,7 +471,21 @@
       <object>objects\obj_help_eight</object>
     </objects>
     <object>objects\obj_trigger_eight</object>
-    <object>objects\obj_f_key</object>
+    <object>objects\obj_trigger_nine</object>
+    <object>objects\obj_trigger_ten</object>
+    <objects name="obj_f_key">
+      <object>objects\obj_f_key_one</object>
+      <object>objects\obj_f_key_two</object>
+      <object>objects\obj_f_key_three</object>
+      <object>objects\obj_f_key_four</object>
+      <object>objects\obj_f_key_five</object>
+      <object>objects\obj_f_key_six</object>
+      <object>objects\obj_f_key_seven</object>
+      <object>objects\obj_f_key_eight</object>
+      <object>objects\obj_f_key_nine</object>
+      <object>objects\obj_f_key_ten</object>
+    </objects>
+    <object>objects\obj_teleporter</object>
     <object>objects\obj_player_fake</object>
   </objects>
   <rooms name="rooms">
@@ -480,6 +506,10 @@
     </rooms>
     <rooms name="rm_boss">
       <room>rooms\rm_boss_one</room>
+    </rooms>
+    <rooms name="rm_secret">
+      <room>rooms\rm_secret_one</room>
+      <room>rooms\rm_secret_two</room>
     </rooms>
     <room>rooms\rm_elevator</room>
     <room>rooms\rm_moon</room>

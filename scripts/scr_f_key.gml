@@ -1,5 +1,5 @@
 ///scr_f_key
-if (place_meeting(x,y,obj_player))
+/*if (place_meeting(x,y,obj_player))
 {
     if (!instance_exists(obj_f_key))
     {
@@ -12,4 +12,4 @@ else
     {
         instance_destroy(obj_f_key)
     }
-}
+}*/
