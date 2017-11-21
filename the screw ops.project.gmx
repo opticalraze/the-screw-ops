@@ -138,8 +138,10 @@
     </sprites>
     <sprites name="spr_floor">
       <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr_floor_textures</sprite>
       <sprite>sprites\spr_floor_two</sprite>
       <sprite>sprites\spr_floor_one</sprite>
+      <sprite>sprites\spr_floor_three</sprite>
     </sprites>
     <sprites name="spr_door">
       <sprite>sprites\spr_door_one</sprite>
@@ -162,7 +164,8 @@
     </sprites>
     <sprites name="aesthetics">
       <sprite>sprites\spr_vending_machine</sprite>
-      <sprite>sprites\spr_molding</sprite>
+      <sprite>sprites\spr_molding_one</sprite>
+      <sprite>sprites\spr_molding_two</sprite>
       <sprite>sprites\spr_lightswitch</sprite>
       <sprite>sprites\spr_intercom</sprite>
       <sprite>sprites\spr_intercom_mark</sprite>
@@ -293,6 +296,7 @@
       <sprite>sprites\spr_arrow_three</sprite>
     </sprites>
     <sprite>sprites\spr_f_key</sprite>
+    <sprite>sprites\spr_sign_one</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -307,6 +311,7 @@
     <background>background\bg_elevator</background>
     <background>background\bg_tunnel_one</background>
     <background>background\bg_trippy</background>
+    <background>background\bg_six</background>
     <background>background\bg_trippy_two</background>
   </backgrounds>
   <paths name="paths"/>
@@ -337,6 +342,7 @@
       <object>objects\obj_floor</object>
       <object>objects\obj_floor_one</object>
       <object>objects\obj_floor_two</object>
+      <object>objects\obj_floor_three</object>
     </objects>
     <objects name="cutscene_one">
       <object>objects\obj_bot_one</object>
@@ -411,7 +417,8 @@
       <object>objects\obj_elevator_sign</object>
       <object>objects\obj_elevator_door</object>
     </objects>
-    <object>objects\obj_molding</object>
+    <object>objects\obj_molding_one</object>
+    <object>objects\obj_molding_two</object>
     <object>objects\obj_lightswitch</object>
     <object>objects\obj_trigger_three</object>
     <object>objects\obj_wall_one</object>
@@ -486,6 +493,7 @@
       <object>objects\obj_f_key_ten</object>
     </objects>
     <object>objects\obj_teleporter</object>
+    <object>objects\obj_sign_one</object>
     <object>objects\obj_player_fake</object>
   </objects>
   <rooms name="rooms">
