@@ -305,8 +305,8 @@
     <sprite>sprites\spr_sign_one</sprite>
     <sprite>sprites\spr_console</sprite>
     <sprite>sprites\spr_consol_table</sprite>
-    <sprite>sprites\sprite174</sprite>
-    <sprite>sprites\spr_screen</sprite>
+    <sprite>sprites\spr_screen_two</sprite>
+    <sprite>sprites\spr_screen_one</sprite>
     <sprite>sprites\spr_line</sprite>
     <sprite>sprites\spr_line_mark</sprite>
     <sprite>sprites\spr_sign_two</sprite>
@@ -520,7 +520,8 @@
     <object>objects\obj_sign_one</object>
     <object>objects\obj_player_fake</object>
     <object>objects\obj_console</object>
-    <object>objects\obj_screen</object>
+    <object>objects\obj_screen_one</object>
+    <object>objects\obj_screen_two</object>
     <object>objects\obj_line_mark</object>
     <object>objects\obj_line</object>
     <object>objects\obj_sign_two</object>
