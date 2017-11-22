@@ -318,6 +318,7 @@
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
     <background>background\bg_elevator</background>
+    <background>background\bg_bsod</background>
     <background>background\bg_tunnel_one</background>
     <background>background\bg_trippy</background>
     <background>background\bg_six</background>
@@ -538,6 +539,7 @@
       <room>rooms\rm_secret_two</room>
     </rooms>
     <room>rooms\rm_elevator</room>
+    <room>rooms\rm_bsod</room>
     <room>rooms\rm_moon</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_tunnel</room>
