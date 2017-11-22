@@ -114,7 +114,6 @@
       <sprite>sprites\spr_key_d</sprite>
       <sprite>sprites\spr_key_f</sprite>
       <sprite>sprites\spr_key_esc</sprite>
-      <sprite>sprites\spr_key_f11</sprite>
       <sprite>sprites\spr_key_ctrl</sprite>
       <sprite>sprites\spr_key_shift</sprite>
       <sprite>sprites\spr_key_space</sprite>
@@ -147,7 +146,7 @@
       <sprite>sprites\spr_door_one</sprite>
       <sprite>sprites\spr_door_two</sprite>
       <sprite>sprites\obj_door_five</sprite>
-      <sprite>sprites\obj_door_five_plus</sprite>
+      <sprite>sprites\spr_door_five_plus</sprite>
       <sprite>sprites\spr_exit_sign</sprite>
       <sprite>sprites\spr_elevator_sign</sprite>
       <sprite>sprites\spr_elevator_button</sprite>
@@ -306,6 +305,11 @@
     <sprite>sprites\spr_sign_one</sprite>
     <sprite>sprites\spr_console</sprite>
     <sprite>sprites\spr_consol_table</sprite>
+    <sprite>sprites\sprite174</sprite>
+    <sprite>sprites\spr_screen</sprite>
+    <sprite>sprites\spr_line</sprite>
+    <sprite>sprites\spr_line_mark</sprite>
+    <sprite>sprites\spr_sign_two</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -347,6 +351,7 @@
       <object>objects\obj_rm_secret_one</object>
       <object>objects\obj_rm_secret_two</object>
       <object>objects\obj_rm_boss_one</object>
+      <object>objects\obj_rm_bsod</object>
     </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
@@ -497,6 +502,8 @@
     <object>objects\obj_trigger_nine</object>
     <object>objects\obj_trigger_ten</object>
     <object>objects\obj_trigger_eleven</object>
+    <object>objects\obj_trigger_thirteen</object>
+    <object>objects\obj_trigger_twelve</object>
     <objects name="obj_f_key">
       <object>objects\obj_f_key_one</object>
       <object>objects\obj_f_key_two</object>
@@ -513,6 +520,10 @@
     <object>objects\obj_sign_one</object>
     <object>objects\obj_player_fake</object>
     <object>objects\obj_console</object>
+    <object>objects\obj_screen</object>
+    <object>objects\obj_line_mark</object>
+    <object>objects\obj_line</object>
+    <object>objects\obj_sign_two</object>
     <object>objects\obj_console_table</object>
   </objects>
   <rooms name="rooms">
