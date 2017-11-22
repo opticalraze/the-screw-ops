@@ -338,18 +338,23 @@
   <objects name="objects">
     <objects name="room_view">
       <object>objects\obj_rm_tutorial_view</object>
+      <object>objects\obj_rm_main_two_view</object>
       <object>objects\obj_rm_secret_one_view</object>
     </objects>
     <objects name="room_initialize">
       <object>objects\obj_initialize</object>
-      <object>objects\obj_rm_one</object>
-      <object>objects\obj_trippy</object>
-      <object>objects\obj_rm_two</object>
-      <object>objects\obj_rm_three</object>
-      <object>objects\obj_rm_elevator</object>
+      <objects name="obj_rm_main">
+        <object>objects\obj_rm_main_one</object>
+        <object>objects\obj_rm_main_two</object>
+        <object>objects\obj_rm_main_five</object>
+      </objects>
       <object>objects\obj_rm_tutorial</object>
-      <object>objects\obj_rm_secret_one</object>
-      <object>objects\obj_rm_secret_two</object>
+      <object>objects\obj_rm_trippy</object>
+      <object>objects\obj_rm_elevator</object>
+      <objects name="obj_rm_secret">
+        <object>objects\obj_rm_secret_one</object>
+        <object>objects\obj_rm_secret_two</object>
+      </objects>
       <object>objects\obj_rm_boss_one</object>
       <object>objects\obj_rm_bsod</object>
     </objects>
@@ -504,6 +509,9 @@
     <object>objects\obj_trigger_eleven</object>
     <object>objects\obj_trigger_thirteen</object>
     <object>objects\obj_trigger_twelve</object>
+    <object>objects\obj_trigger_fourteen</object>
+    <object>objects\obj_trigger_fifteen</object>
+    <object>objects\obj_trigger_sixteen</object>
     <objects name="obj_f_key">
       <object>objects\obj_f_key_one</object>
       <object>objects\obj_f_key_two</object>
@@ -534,6 +542,8 @@
       <room>rooms\rm_main_one</room>
       <room>rooms\rm_main_two</room>
       <room>rooms\rm_main_three</room>
+      <room>rooms\rm_main_four</room>
+      <room>rooms\rm_main_five</room>
     </rooms>
     <rooms name="rm_level">
       <room>rooms\rm_level_one</room>

@@ -241,7 +241,7 @@
     <instance objName="obj_trigger_five" x="64" y="2720" name="inst_59EAC0EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_five" x="96" y="2720" name="inst_8FD87F93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_five" x="128" y="2720" name="inst_4DB322C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trippy" x="0" y="0" name="inst_7CAE3151" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_trippy" x="0" y="0" name="inst_7CAE3151" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
