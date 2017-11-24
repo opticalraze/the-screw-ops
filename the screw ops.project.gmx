@@ -145,14 +145,15 @@
     <sprites name="spr_door">
       <sprite>sprites\spr_door_one</sprite>
       <sprite>sprites\spr_door_two</sprite>
-      <sprite>sprites\obj_door_five</sprite>
-      <sprite>sprites\spr_door_five_plus</sprite>
+      <sprite>sprites\spr_elevator_door</sprite>
+      <sprite>sprites\spr_elevator_door_plus</sprite>
       <sprite>sprites\spr_exit_sign</sprite>
       <sprite>sprites\spr_elevator_sign</sprite>
       <sprite>sprites\spr_elevator_button</sprite>
       <sprite>sprites\spr_door_three</sprite>
       <sprite>sprites\spr_door_four</sprite>
       <sprite>sprites\spr_door_five</sprite>
+      <sprite>sprites\spr_door_six</sprite>
       <sprites name="spr_door_sign">
         <sprite>sprites\spr_door_sign_one</sprite>
         <sprite>sprites\spr_door_sign_two</sprite>
@@ -335,6 +336,9 @@
     <script>scripts\scr_shadow.gml</script>
     <script>scripts\scr_f_key.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shd_sin_city.shader</shader>
+  </shaders>
   <objects name="objects">
     <objects name="room_view">
       <object>objects\obj_rm_tutorial_view</object>
@@ -357,6 +361,7 @@
       </objects>
       <object>objects\obj_rm_boss_one</object>
       <object>objects\obj_rm_bsod</object>
+      <object>objects\obj_filter</object>
     </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
@@ -433,6 +438,8 @@
       <object>objects\obj_door_two</object>
       <object>objects\obj_exit_sign</object>
       <object>objects\obj_door_three</object>
+      <object>objects\obj_door_four</object>
+      <object>objects\obj_door_five</object>
       <object>objects\obj_elevator_button</object>
       <object>objects\obj_elevator_sign</object>
       <object>objects\obj_elevator_door</object>
