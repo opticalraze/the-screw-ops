@@ -19,6 +19,7 @@ void main()
 }
 
 //######################_==_YOYO_SHADER_MARKER_==_######################@~
+
 //
 // Simple passthrough fragment shader
 //
@@ -30,7 +31,7 @@ void main()
     vec4 base_col = texture2D( gm_BaseTexture, v_vTexcoord );
     
     // gamma 1
-    base_col.rgb = pow(base_col.rgb, vec3(0.45));
+    base_col.rgb = pow(abs(base_col.rgb), vec3(0.45));
     
     // b & w conversion
     float grey = dot(base_col.rgb, vec3(0.333));
@@ -46,7 +47,7 @@ void main()
     
     // reverse gamma 1
     
-    gl_FragColor = v_vColour * vec4(pow(base_col.rgb, vec3(2.2)), base_col.a);
+     gl_FragColor = v_vColour * vec4(pow(abs(base_col.rgb), vec3(2.2)), base_col.a);
     
 }
 

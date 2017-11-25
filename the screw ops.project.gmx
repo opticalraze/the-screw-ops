@@ -361,7 +361,7 @@
       </objects>
       <object>objects\obj_rm_boss_one</object>
       <object>objects\obj_rm_bsod</object>
-      <object>objects\obj_filter</object>
+      <object>objects\obj_shader</object>
     </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
