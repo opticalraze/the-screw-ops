@@ -137,10 +137,51 @@
     </sprites>
     <sprites name="spr_floor">
       <sprite>sprites\spr_floor</sprite>
-      <sprite>sprites\spr_floor_textures</sprite>
-      <sprite>sprites\spr_floor_two</sprite>
-      <sprite>sprites\spr_floor_one</sprite>
-      <sprite>sprites\spr_floor_three</sprite>
+      <sprites name="spr_slope">
+        <sprites name="spr_slope_one">
+          <sprite>sprites\spr_slope_one_one</sprite>
+          <sprite>sprites\spr_slope_two_one</sprite>
+          <sprite>sprites\spr_slope_three_one</sprite>
+          <sprite>sprites\spr_slope_four_one</sprite>
+        </sprites>
+        <sprites name="spr_slope_three">
+          <sprite>sprites\spr_slope_one_three</sprite>
+          <sprite>sprites\spr_slope_two_three</sprite>
+          <sprite>sprites\spr_slope_three_three</sprite>
+          <sprite>sprites\spr_slope_four_three</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="spr_slab">
+        <sprites name="spr_slab_one">
+          <sprite>sprites\spr_slab_one_one</sprite>
+          <sprite>sprites\spr_slab_two_one</sprite>
+        </sprites>
+        <sprites name="spr_slab_three">
+          <sprite>sprites\spr_slab_one_three</sprite>
+          <sprite>sprites\spr_slab_two_three</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="spr_stair">
+        <sprites name="spr_stair_one">
+          <sprite>sprites\spr_stair_one_one</sprite>
+          <sprite>sprites\spr_stair_two_one</sprite>
+          <sprite>sprites\spr_stair_three_one</sprite>
+          <sprite>sprites\spr_stair_four_one</sprite>
+        </sprites>
+        <sprites name="spr_stair_three">
+          <sprite>sprites\spr_stair_one_three</sprite>
+          <sprite>sprites\spr_stair_two_three</sprite>
+          <sprite>sprites\spr_stair_three_three</sprite>
+          <sprite>sprites\spr_stair_four_three</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="spr_floor">
+        <sprite>sprites\spr_floor_one</sprite>
+        <sprite>sprites\spr_floor_two</sprite>
+        <sprite>sprites\spr_floor_three</sprite>
+        <sprite>sprites\spr_floor_four</sprite>
+        <sprite>sprites\spr_floor_five</sprite>
+      </sprites>
     </sprites>
     <sprites name="spr_door">
       <sprite>sprites\spr_door_one</sprite>
@@ -307,10 +348,22 @@
     <sprite>sprites\spr_console</sprite>
     <sprite>sprites\spr_consol_table</sprite>
     <sprite>sprites\spr_screen_two</sprite>
+    <sprite>sprites\spr_countdown</sprite>
     <sprite>sprites\spr_screen_one</sprite>
     <sprite>sprites\spr_line</sprite>
     <sprite>sprites\spr_line_mark</sprite>
+    <sprites name="spr_pipe">
+      <sprite>sprites\spr_pipe_two</sprite>
+      <sprite>sprites\spr_pipe_three</sprite>
+      <sprite>sprites\spr_pipe_four</sprite>
+      <sprite>sprites\spr_pipe_five</sprite>
+      <sprite>sprites\spr_pipe_six</sprite>
+      <sprite>sprites\spr_pipe_one</sprite>
+    </sprites>
     <sprite>sprites\spr_sign_two</sprite>
+    <sprite>sprites\spr_server</sprite>
+    <sprite>sprites\spr_wreaking_ball</sprite>
+    <sprite>sprites\spr_chain</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -323,7 +376,9 @@
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
     <background>background\bg_elevator</background>
-    <background>background\bg_bsod</background>
+    <background>background\bg_bsod_one</background>
+    <background>background\bg_bsod_two</background>
+    <background>background\bg_bsod_three</background>
     <background>background\bg_tunnel_one</background>
     <background>background\bg_trippy</background>
     <background>background\bg_six</background>
@@ -368,6 +423,18 @@
       <object>objects\obj_floor_one</object>
       <object>objects\obj_floor_two</object>
       <object>objects\obj_floor_three</object>
+      <objects name="obj_slope_one">
+        <object>objects\obj_slope_one_one</object>
+        <object>objects\obj_slope_two_one</object>
+        <object>objects\obj_slope_three_one</object>
+        <object>objects\obj_slope_four_one</object>
+      </objects>
+      <objects name="obj_slope_three">
+        <object>objects\obj_slope_one_three</object>
+        <object>objects\obj_slope_two_three</object>
+        <object>objects\obj_slope_three_three</object>
+        <object>objects\obj_slope_four_three</object>
+      </objects>
     </objects>
     <objects name="cutscene_one">
       <object>objects\obj_bot_one</object>
@@ -452,13 +519,27 @@
       <object>objects\obj_molding_four</object>
       <object>objects\obj_molding_five</object>
     </objects>
+    <objects name="obj_trigger">
+      <object>objects\obj_trigger_fourteen</object>
+      <object>objects\obj_trigger_fifteen</object>
+      <object>objects\obj_trigger_sixteen</object>
+      <object>objects\obj_trigger_twelve</object>
+      <object>objects\obj_trigger_thirteen</object>
+      <object>objects\obj_trigger_eleven</object>
+      <object>objects\obj_trigger_ten</object>
+      <object>objects\obj_trigger_nine</object>
+      <object>objects\obj_trigger_eight</object>
+      <object>objects\obj_trigger_six</object>
+      <object>objects\obj_trigger_seven</object>
+      <object>objects\obj_trigger_five</object>
+      <object>objects\obj_trigger_four</object>
+      <object>objects\obj_trigger_three</object>
+    </objects>
     <object>objects\obj_lightswitch</object>
-    <object>objects\obj_trigger_three</object>
     <object>objects\obj_wall_one</object>
     <object>objects\obj_pot_one</object>
     <object>objects\obj_table_one</object>
     <object>objects\obj_graffity_two</object>
-    <object>objects\obj_trigger_four</object>
     <object>objects\obj_graffity_one</object>
     <object>objects\obj_poster_one</object>
     <object>objects\obj_poster_two</object>
@@ -492,14 +573,11 @@
     </objects>
     <object>objects\obj_table_two</object>
     <object>objects\obj_nuke_one</object>
-    <object>objects\obj_trigger_five</object>
     <objects name="obj_arrow">
       <object>objects\obj_arrow_one</object>
       <object>objects\obj_arrow_three</object>
       <object>objects\obj_arrow_two</object>
     </objects>
-    <object>objects\obj_trigger_seven</object>
-    <object>objects\obj_trigger_six</object>
     <objects name="obj_help">
       <object>objects\obj_help_one</object>
       <object>objects\obj_help_two</object>
@@ -510,15 +588,6 @@
       <object>objects\obj_help_seven</object>
       <object>objects\obj_help_eight</object>
     </objects>
-    <object>objects\obj_trigger_eight</object>
-    <object>objects\obj_trigger_nine</object>
-    <object>objects\obj_trigger_ten</object>
-    <object>objects\obj_trigger_eleven</object>
-    <object>objects\obj_trigger_thirteen</object>
-    <object>objects\obj_trigger_twelve</object>
-    <object>objects\obj_trigger_fourteen</object>
-    <object>objects\obj_trigger_fifteen</object>
-    <object>objects\obj_trigger_sixteen</object>
     <objects name="obj_f_key">
       <object>objects\obj_f_key_one</object>
       <object>objects\obj_f_key_two</object>
@@ -540,7 +609,17 @@
     <object>objects\obj_line_mark</object>
     <object>objects\obj_line</object>
     <object>objects\obj_sign_two</object>
+    <objects name="obj_pipe">
+      <object>objects\obj_pipe_one</object>
+      <object>objects\obj_pipe_two</object>
+      <object>objects\obj_pipe_three</object>
+      <object>objects\obj_pipe_four</object>
+      <object>objects\obj_pipe_five</object>
+      <object>objects\obj_pipe_six</object>
+    </objects>
+    <object>objects\obj_server</object>
     <object>objects\obj_console_table</object>
+    <object>objects\obj_wreaking_ball</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
@@ -566,6 +645,7 @@
     <rooms name="rm_secret">
       <room>rooms\rm_secret_one</room>
       <room>rooms\rm_secret_two</room>
+      <room>rooms\rm_secret_three</room>
     </rooms>
     <room>rooms\rm_elevator</room>
     <room>rooms\rm_bsod</room>
