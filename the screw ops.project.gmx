@@ -453,10 +453,8 @@
     <objects name="Inanimate Objects">
       <object>objects\obj_table</object>
       <object>objects\obj_chair</object>
-      <object>objects\obj_window</object>
       <object>objects\obj_pot</object>
       <object>objects\obj_painting</object>
-      <object>objects\obj_door</object>
       <object>objects\obj_die</object>
       <object>objects\obj_cursor_pointer</object>
       <object>objects\obj_cursor</object>
