@@ -72,36 +72,6 @@
         <sprite>sprites\spr_enemy_three</sprite>
       </sprites>
     </sprites>
-    <sprites name="old stuff">
-      <sprite>sprites\spr_enemy_two</sprite>
-      <sprite>sprites\spr_cctv</sprite>
-      <sprite>sprites\spr_die</sprite>
-      <sprite>sprites\spr_player_head2</sprite>
-      <sprite>sprites\spr_head_3</sprite>
-      <sprite>sprites\spr_player_head</sprite>
-      <sprite>sprites\spr_player_head3</sprite>
-      <sprite>sprites\spr_door</sprite>
-      <sprite>sprites\spr_window</sprite>
-      <sprites name="Furniture">
-        <sprite>sprites\spr_table</sprite>
-        <sprite>sprites\spr_chair</sprite>
-        <sprite>sprites\spr_bench</sprite>
-      </sprites>
-      <sprite>sprites\spr_keypad_old_two</sprite>
-      <sprite>sprites\spr_keypad_old</sprite>
-      <sprite>sprites\spr_billboard</sprite>
-      <sprites name="spr_old_enemy">
-        <sprite>sprites\spr_old_enemy_two_idle</sprite>
-        <sprite>sprites\spr_old_enemy_two_walk</sprite>
-        <sprite>sprites\spr_old_enemy_three_idle</sprite>
-        <sprite>sprites\spr_old_enemy_one_jump</sprite>
-        <sprite>sprites\spr_old_enemy_two_jump</sprite>
-        <sprite>sprites\spr_old_enemy_one_fall</sprite>
-        <sprite>sprites\spr_old_enemy_two_fall</sprite>
-        <sprite>sprites\spr_old_enemy_idle</sprite>
-      </sprites>
-      <sprite>sprites\spr_nuke_old</sprite>
-    </sprites>
     <sprites name="spr_wall">
       <sprite>sprites\spr_wall_one</sprite>
       <sprite>sprites\spr_wall_two</sprite>
@@ -240,14 +210,17 @@
       <sprite>sprites\spr_bot_two_walk</sprite>
       <sprite>sprites\spr_bot_two_sprint</sprite>
     </sprites>
-    <sprites name="Player">
+    <sprites name="spr_player">
       <sprite>sprites\spr_player_idle</sprite>
+      <sprite>sprites\spr_player_melee</sprite>
+      <sprite>sprites\spr_player_melee_hitbox</sprite>
       <sprite>sprites\spr_player_look</sprite>
       <sprite>sprites\spr_player_crouch</sprite>
       <sprite>sprites\spr_player_fall</sprite>
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_walk</sprite>
       <sprite>sprites\spr_player_sprint</sprite>
+      <sprite>sprites\spr_player_melee_old</sprite>
     </sprites>
     <sprites name="Objects">
       <sprites name="spr_ladder">
@@ -312,6 +285,36 @@
     </sprites>
     <sprites name="Boss">
       <sprite>sprites\spr_boss</sprite>
+    </sprites>
+    <sprites name="old stuff">
+      <sprite>sprites\spr_enemy_two</sprite>
+      <sprite>sprites\spr_cctv</sprite>
+      <sprite>sprites\spr_die</sprite>
+      <sprite>sprites\spr_player_head2</sprite>
+      <sprite>sprites\spr_head_3</sprite>
+      <sprite>sprites\spr_player_head</sprite>
+      <sprite>sprites\spr_player_head3</sprite>
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_window</sprite>
+      <sprites name="Furniture">
+        <sprite>sprites\spr_table</sprite>
+        <sprite>sprites\spr_chair</sprite>
+        <sprite>sprites\spr_bench</sprite>
+      </sprites>
+      <sprite>sprites\spr_keypad_old_two</sprite>
+      <sprite>sprites\spr_keypad_old</sprite>
+      <sprite>sprites\spr_billboard</sprite>
+      <sprites name="spr_old_enemy">
+        <sprite>sprites\spr_old_enemy_two_idle</sprite>
+        <sprite>sprites\spr_old_enemy_two_walk</sprite>
+        <sprite>sprites\spr_old_enemy_three_idle</sprite>
+        <sprite>sprites\spr_old_enemy_one_jump</sprite>
+        <sprite>sprites\spr_old_enemy_two_jump</sprite>
+        <sprite>sprites\spr_old_enemy_one_fall</sprite>
+        <sprite>sprites\spr_old_enemy_two_fall</sprite>
+        <sprite>sprites\spr_old_enemy_idle</sprite>
+      </sprites>
+      <sprite>sprites\spr_nuke_old</sprite>
     </sprites>
     <sprite>sprites\spr_bars</sprite>
     <sprite>sprites\spr_keypad_gui</sprite>
@@ -399,12 +402,12 @@
     <shader type="GLSLES">shaders\shd_sin_city.shader</shader>
   </shaders>
   <objects name="objects">
-    <objects name="room_view">
+    <objects name="views">
       <object>objects\obj_rm_tutorial_view</object>
       <object>objects\obj_rm_main_two_view</object>
       <object>objects\obj_rm_secret_one_view</object>
     </objects>
-    <objects name="room_initialize">
+    <objects name="initialize">
       <object>objects\obj_initialize</object>
       <objects name="obj_rm_main">
         <object>objects\obj_rm_main_one</object>
@@ -422,6 +425,15 @@
       <object>objects\obj_rm_bsod</object>
       <objects name="obj_rm_level">
         <object>objects\obj_rm_level_one</object>
+      </objects>
+      <objects name="obj_initialize_other">
+        <object>objects\obj_options</object>
+        <object>objects\obj_score</object>
+        <object>objects\obj_pause</object>
+        <object>objects\obj_dead</object>
+        <object>objects\obj_action</object>
+        <object>objects\obj_gui</object>
+        <object>objects\obj_credits</object>
       </objects>
     </objects>
     <objects name="obj_floor">
@@ -469,6 +481,9 @@
           <object>objects\obj_stair_four_three</object>
         </objects>
       </objects>
+      <objects name="obj_wall">
+        <object>objects\obj_wall_one</object>
+      </objects>
     </objects>
     <objects name="cutscene_one">
       <object>objects\obj_bot_one</object>
@@ -478,20 +493,18 @@
       <object>objects\obj_rm_one_view</object>
       <object>objects\obj_player_look</object>
     </objects>
-    <object>objects\obj_player</object>
-    <object>objects\obj_balloon</object>
-    <objects name="Enemies">
-      <object>objects\obj_enemy_one</object>
-      <object>objects\obj_enemy_two</object>
+    <objects name="obj_player">
+      <object>objects\obj_player</object>
+      <object>objects\obj_player_melee_hitbox</object>
     </objects>
-    <objects name="Inanimate Objects">
+    <objects name="other">
+      <object>objects\obj_balloon</object>
+      <object>objects\obj_tv_one</object>
+      <object>objects\obj_crib</object>
       <object>objects\obj_table</object>
       <object>objects\obj_chair</object>
       <object>objects\obj_pot</object>
       <object>objects\obj_painting</object>
-      <object>objects\obj_die</object>
-      <object>objects\obj_cursor_pointer</object>
-      <object>objects\obj_cursor</object>
       <object>objects\obj_spike</object>
       <object>objects\obj_mine_two</object>
       <object>objects\obj_bench</object>
@@ -499,10 +512,34 @@
       <object>objects\obj_ladder</object>
       <object>objects\obj_ladder_one</object>
       <object>objects\obj_ladder_two</object>
-      <object>objects\obj_enemy</object>
       <object>objects\obj_mine</object>
+      <objects name="other_old">
+        <object>objects\obj_enemy</object>
+        <object>objects\obj_die</object>
+        <object>objects\obj_enemy_three_old</object>
+      </objects>
+      <object>objects\obj_lightswitch</object>
+      <object>objects\obj_pot_one</object>
+      <object>objects\obj_table_one</object>
+      <object>objects\obj_rock</object>
+      <object>objects\obj_table_two</object>
+      <object>objects\obj_nuke_one</object>
+      <object>objects\obj_teleporter</object>
+      <object>objects\obj_painting_maze_dodger</object>
+      <object>objects\obj_player_fake</object>
+      <objects name="explosive">
+        <object>objects\obj_jerry_can</object>
+      </objects>
     </objects>
-    <objects name="Effects">
+    <objects name="obj_enemy">
+      <object>objects\obj_enemy_one</object>
+      <object>objects\obj_enemy_two</object>
+    </objects>
+    <objects name="gui">
+      <object>objects\obj_cursor</object>
+      <object>objects\obj_cursor_pointer</object>
+    </objects>
+    <objects name="effects">
       <object>objects\obj_explosion_mark</object>
       <object>objects\obj_explosion</object>
       <object>objects\obj_explosion_nuke</object>
@@ -512,20 +549,6 @@
       <object>objects\obj_explosion_enemy</object>
       <object>objects\obj_pot_break</object>
     </objects>
-    <objects name="Other">
-      <object>objects\obj_options</object>
-      <object>objects\obj_score</object>
-      <object>objects\obj_pause</object>
-      <object>objects\obj_dead</object>
-      <object>objects\obj_action</object>
-      <object>objects\obj_gui</object>
-      <object>objects\obj_credits</object>
-    </objects>
-    <objects name="End">
-      <object>objects\obj_tv_one</object>
-      <object>objects\obj_crib</object>
-    </objects>
-    <object>objects\obj_painting_maze_dodger</object>
     <objects name="Boss">
       <object>objects\obj_boss</object>
       <object>objects\obj_camera</object>
@@ -567,15 +590,15 @@
       <object>objects\obj_trigger_four</object>
       <object>objects\obj_trigger_three</object>
     </objects>
-    <object>objects\obj_lightswitch</object>
-    <object>objects\obj_wall_one</object>
-    <object>objects\obj_pot_one</object>
-    <object>objects\obj_table_one</object>
-    <object>objects\obj_graffity_two</object>
-    <object>objects\obj_graffity_one</object>
-    <object>objects\obj_poster_one</object>
-    <object>objects\obj_poster_two</object>
-    <object>objects\obj_poster_three</object>
+    <objects name="obj_graffity">
+      <object>objects\obj_graffity_two</object>
+      <object>objects\obj_graffity_one</object>
+    </objects>
+    <objects name="obj_poster">
+      <object>objects\obj_poster_one</object>
+      <object>objects\obj_poster_two</object>
+      <object>objects\obj_poster_three</object>
+    </objects>
     <objects name="obj_door_sign">
       <object>objects\obj_door_sign_one</object>
       <object>objects\obj_door_sign_two</object>
@@ -588,13 +611,10 @@
       <object>objects\obj_intercom</object>
       <object>objects\obj_intercom_mark</object>
     </objects>
-    <object>objects\obj_jerry_can</object>
-    <object>objects\obj_rock</object>
     <objects name="obj_throne">
       <object>objects\obj_throne</object>
       <object>objects\obj_throne_base</object>
     </objects>
-    <object>objects\obj_enemy_three</object>
     <objects name="obj_barrel">
       <object>objects\obj_barrel_one</object>
       <object>objects\obj_barrel_two</object>
@@ -603,8 +623,6 @@
       <object>objects\obj_target_one</object>
       <object>objects\obj_target_two</object>
     </objects>
-    <object>objects\obj_table_two</object>
-    <object>objects\obj_nuke_one</object>
     <objects name="obj_arrow">
       <object>objects\obj_arrow_one</object>
       <object>objects\obj_arrow_three</object>
@@ -632,9 +650,7 @@
       <object>objects\obj_f_key_nine</object>
       <object>objects\obj_f_key_ten</object>
     </objects>
-    <object>objects\obj_teleporter</object>
     <object>objects\obj_sign_one</object>
-    <object>objects\obj_player_fake</object>
     <object>objects\obj_console</object>
     <object>objects\obj_screen_one</object>
     <object>objects\obj_screen_two</object>

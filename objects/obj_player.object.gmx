@@ -33,6 +33,7 @@ jumpspeed = 4;
 movespeed = 1;
 crouching = false;
 sprinting = false;
+melee = FALSE;
 global.hp = 100;
 global.energy = 17;
 recently_hit = false;
@@ -65,7 +66,7 @@ if (global.checkpointR == room)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.energy -= 1;
+            <string>melee = FALSE;
 </string>
           </argument>
         </arguments>
@@ -124,6 +125,7 @@ if (!global.pause)
     key_up = keyboard_check(ord('W'));
     key_down = keyboard_check(ord('S'));
     key_enter = keyboard_check(ord('F'));
+    key_attack = mouse_check_button(mb_right);
 } 
 else 
 {
@@ -135,6 +137,7 @@ else
     key_up = false;
     key_down = false;
     key_enter = false;
+    key_attack = false;
 }
 
 //React to inputs
@@ -172,9 +175,6 @@ else
 {
     grav = 0.2;
 }
-
-//Door
-// in the obj_door step event
 
 // Look
 if (key_up &amp;&amp; !place_meeting(x, y, obj_ladder)) 
@@ -243,6 +243,12 @@ if (place_meeting(x,y+1, obj_floor))
     {
         sprite_index = spr_player_crouch;
     }
+    else if (key_attack)
+    {
+        //sprite_index = spr_player_melee;
+        melee = TRUE;
+        alarm[1] = 15;
+    }
 } 
 else if (place_meeting(x,y, obj_ladder)) 
 {
@@ -252,10 +258,27 @@ else if (place_meeting(x,y, obj_ladder))
     }
 }
 
-
-if (key_sprint &amp;&amp; global.energy != 0) 
+if (melee = TRUE)
 {
-    alarm[0] = room_speed*2;
+    // Animation
+    sprite_index = spr_player_melee;
+
+    // **Disable Movement**
+    
+    // Create the hitbox
+    if (image_index &gt;= 1) &amp;&amp; (image_index &lt;= 26)
+    {
+        with(instance_create(x,y,obj_player_melee_hitbox))
+        {
+            image_xscale = other.image_xscale;
+            with(instance_place(x,y,obj_enemy))
+            {
+                vsp = -3;
+                hsp = sign(x - other.x) * 4;
+                image_xscale = sign(hsp);
+            }
+        }
+    }
 }
 </string>
           </argument>
