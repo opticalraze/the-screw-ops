@@ -36,6 +36,13 @@ sprinting = false;
 global.hp = 100;
 global.energy = 17;
 recently_hit = false;
+
+
+if (global.checkpointR == room)
+{
+    x = global.checkpointx;
+    y = global.checkpointy;
+}
 </string>
           </argument>
         </arguments>

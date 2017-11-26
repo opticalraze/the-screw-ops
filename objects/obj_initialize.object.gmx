@@ -25,7 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.checkpoint = FALSE;
+            <string>// Set global variables
+global.checkpoint = noone;
+global.checkpointR = 0;
+global.checkpointx = 0;
+global.checkpointy = 0;
+
+// Create persistent objects
+instance_create(x,y,obj_options);
+instance_create(x,y,obj_pause);
+instance_create(x,y,obj_dead);
+
+// Go to next room\
+room_goto_next();
 </string>
           </argument>
         </arguments>

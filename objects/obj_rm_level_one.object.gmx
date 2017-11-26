@@ -25,15 +25,26 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.checkpoint = TRUE)
+            <string>// If cursor object doesn't exist, create it
+if !instance_exists(obj_cursor)
 {
-    /*if (instance_exists(obj_checkpoint_one))
-    {
-        instance_create(obj_checkpoint_one.x,obj_checkpoint_one.y,obj_checkpoint_two);
-        obj_player.y = obj_checkpoint_two.y;
-    }*/
-    obj_player.y = obj_checkpoint_one.y;
+    instance_create(mouse_x,mouse_y,obj_cursor)
 }
+
+// If cursor pointer object exists, destroy it
+if instance_exists(obj_cursor_pointer)
+{
+    instance_destroy(obj_cursor_pointer)
+}
+
+// If obj_gui doesn't exist, create it
+if !instance_exists(obj_gui)
+{
+    instance_create(x,y,obj_gui)
+}
+
+// Set global.roomcamefrom to this room
+global.roomcamefrom = room;
 </string>
           </argument>
         </arguments>

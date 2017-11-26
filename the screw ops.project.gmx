@@ -367,6 +367,7 @@
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_checkpoint_one</sprite>
     <sprite>sprites\spr_checkpoint_two</sprite>
+    <sprite>sprites\spr_checkpoint_two_old</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -419,7 +420,6 @@
       </objects>
       <object>objects\obj_rm_boss_one</object>
       <object>objects\obj_rm_bsod</object>
-      <object>objects\obj_shader</object>
       <objects name="obj_rm_level">
         <object>objects\obj_rm_level_one</object>
       </objects>
@@ -652,7 +652,6 @@
     <object>objects\obj_server</object>
     <object>objects\obj_console_table</object>
     <object>objects\obj_checkpoint_one</object>
-    <object>objects\obj_checkpoint_two</object>
     <object>objects\obj_wreaking_ball</object>
   </objects>
   <rooms name="rooms">
