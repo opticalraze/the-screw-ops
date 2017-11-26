@@ -514,7 +514,6 @@
       <object>objects\obj_ladder_two</object>
       <object>objects\obj_mine</object>
       <objects name="other_old">
-        <object>objects\obj_enemy</object>
         <object>objects\obj_die</object>
         <object>objects\obj_enemy_three_old</object>
       </objects>
@@ -534,6 +533,7 @@
     <objects name="obj_enemy">
       <object>objects\obj_enemy_one</object>
       <object>objects\obj_enemy_two</object>
+      <object>objects\obj_enemy</object>
     </objects>
     <objects name="gui">
       <object>objects\obj_cursor</object>
@@ -694,7 +694,6 @@
     <rooms name="rm_secret">
       <room>rooms\rm_secret_one</room>
       <room>rooms\rm_secret_two</room>
-      <room>rooms\rm_secret_three</room>
     </rooms>
     <room>rooms\rm_elevator</room>
     <room>rooms\rm_bsod</room>
