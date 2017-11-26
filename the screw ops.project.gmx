@@ -192,7 +192,8 @@
       <sprite>sprites\spr_elevator_sign</sprite>
       <sprite>sprites\spr_elevator_button</sprite>
       <sprite>sprites\spr_door_three</sprite>
-      <sprite>sprites\spr_door_four</sprite>
+      <sprite>sprites\spr_door_four_old</sprite>
+      <sprite>sprites\spr_door_foor</sprite>
       <sprite>sprites\spr_door_five</sprite>
       <sprite>sprites\spr_door_six</sprite>
       <sprites name="spr_door_sign">
@@ -364,6 +365,8 @@
     <sprite>sprites\spr_server</sprite>
     <sprite>sprites\spr_wreaking_ball</sprite>
     <sprite>sprites\spr_chain</sprite>
+    <sprite>sprites\spr_checkpoint_one</sprite>
+    <sprite>sprites\spr_checkpoint_two</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall2</background>
@@ -417,23 +420,54 @@
       <object>objects\obj_rm_boss_one</object>
       <object>objects\obj_rm_bsod</object>
       <object>objects\obj_shader</object>
+      <objects name="obj_rm_level">
+        <object>objects\obj_rm_level_one</object>
+      </objects>
     </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
-      <object>objects\obj_floor_one</object>
-      <object>objects\obj_floor_two</object>
-      <object>objects\obj_floor_three</object>
-      <objects name="obj_slope_one">
-        <object>objects\obj_slope_one_one</object>
-        <object>objects\obj_slope_two_one</object>
-        <object>objects\obj_slope_three_one</object>
-        <object>objects\obj_slope_four_one</object>
+      <objects name="obj_floor">
+        <object>objects\obj_floor_one</object>
+        <object>objects\obj_floor_two</object>
+        <object>objects\obj_floor_three</object>
       </objects>
-      <objects name="obj_slope_three">
-        <object>objects\obj_slope_one_three</object>
-        <object>objects\obj_slope_two_three</object>
-        <object>objects\obj_slope_three_three</object>
-        <object>objects\obj_slope_four_three</object>
+      <objects name="obj_slope">
+        <objects name="obj_slope_one">
+          <object>objects\obj_slope_one_one</object>
+          <object>objects\obj_slope_two_one</object>
+          <object>objects\obj_slope_three_one</object>
+          <object>objects\obj_slope_four_one</object>
+        </objects>
+        <objects name="obj_slope_three">
+          <object>objects\obj_slope_one_three</object>
+          <object>objects\obj_slope_two_three</object>
+          <object>objects\obj_slope_three_three</object>
+          <object>objects\obj_slope_four_three</object>
+        </objects>
+      </objects>
+      <objects name="obj_slab">
+        <objects name="obj_slab_one">
+          <object>objects\obj_slab_one_one</object>
+          <object>objects\obj_slab_two_one</object>
+        </objects>
+        <objects name="obj_slab_three">
+          <object>objects\obj_slab_one_three</object>
+          <object>objects\obj_slab_two_three</object>
+        </objects>
+      </objects>
+      <objects name="obj_stair">
+        <objects name="obj_stair_one">
+          <object>objects\obj_stair_one_one</object>
+          <object>objects\obj_stair_two_one</object>
+          <object>objects\obj_stair_three_one</object>
+          <object>objects\obj_stair_four_one</object>
+        </objects>
+        <objects name="obj_stair_three">
+          <object>objects\obj_stair_one_three</object>
+          <object>objects\obj_stair_two_three</object>
+          <object>objects\obj_stair_three_three</object>
+          <object>objects\obj_stair_four_three</object>
+        </objects>
       </objects>
     </objects>
     <objects name="cutscene_one">
@@ -498,7 +532,7 @@
       <object>objects\obj_boss_view</object>
     </objects>
     <object>objects\obj_rm_boss</object>
-    <objects name="Doors">
+    <objects name="obj_door">
       <object>objects\obj_door_one</object>
       <object>objects\obj_door_two</object>
       <object>objects\obj_exit_sign</object>
@@ -617,6 +651,8 @@
     </objects>
     <object>objects\obj_server</object>
     <object>objects\obj_console_table</object>
+    <object>objects\obj_checkpoint_one</object>
+    <object>objects\obj_checkpoint_two</object>
     <object>objects\obj_wreaking_ball</object>
   </objects>
   <rooms name="rooms">

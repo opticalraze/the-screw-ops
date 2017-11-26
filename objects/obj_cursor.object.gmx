@@ -126,53 +126,6 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_trigger_seven">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// Make the sound effect
-if (!global.pause &amp;&amp; !global.dead) 
-{
-    if (mouse_check_button_pressed(mb_left)) 
-    {
-        // Destroy obj_trigger_six
-        if instance_exists(obj_trigger_six)
-        {
-            instance_destroy(obj_trigger_six)
-        }
-
-        // Destroy the fake player and create the real player
-        if instance_exists(obj_player_fake)
-        {
-            instance_create(obj_player_fake.x,obj_player_fake.y,obj_player)
-            instance_destroy(obj_player_fake)
-        }
-        
-        // Destroy obj_trigger_seven
-        instance_destroy(obj_trigger_seven)
-        
-        // Set global.hp to 80
-        global.hp = 80;
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_target_two">
       <action>
         <libid>1</libid>
@@ -284,6 +237,53 @@ if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
         instance_create(other.x, other.y, obj_explosion);
         instance_destroy(other);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_trigger_seven">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Make the sound effect
+if (!global.pause &amp;&amp; !global.dead) 
+{
+    if (mouse_check_button_pressed(mb_left)) 
+    {
+        // Destroy obj_trigger_six
+        if instance_exists(obj_trigger_six)
+        {
+            instance_destroy(obj_trigger_six)
+        }
+
+        // Destroy the fake player and create the real player
+        if instance_exists(obj_player_fake)
+        {
+            instance_create(obj_player_fake.x,obj_player_fake.y,obj_player)
+            instance_destroy(obj_player_fake)
+        }
+        
+        // Destroy obj_trigger_seven
+        instance_destroy(obj_trigger_seven)
+        
+        // Set global.hp to 80
+        global.hp = 80;
     }
 }
 </string>

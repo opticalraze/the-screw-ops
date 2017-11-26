@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,7 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.checkpoint = FALSE;
+            <string>if (global.checkpoint = TRUE)
+{
+    /*if (instance_exists(obj_checkpoint_one))
+    {
+        instance_create(obj_checkpoint_one.x,obj_checkpoint_one.y,obj_checkpoint_two);
+        obj_player.y = obj_checkpoint_two.y;
+    }*/
+    obj_player.y = obj_checkpoint_one.y;
+}
 </string>
           </argument>
         </arguments>

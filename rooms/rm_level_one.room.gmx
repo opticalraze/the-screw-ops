@@ -105,6 +105,8 @@
     <instance objName="obj_barrel_one" x="514" y="271" name="inst_7DE28261" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel_one" x="506" y="254" name="inst_87B2E5E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wreaking_ball" x="142" y="210" name="inst_1FA8379A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_checkpoint_one" x="672" y="256" name="inst_1512F3DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_level_one" x="32" y="0" name="inst_34160688" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
