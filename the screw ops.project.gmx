@@ -370,6 +370,13 @@
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_checkpoint_one</sprite>
     <sprite>sprites\spr_checkpoint_two</sprite>
+    <sprites name="kitchen">
+      <sprite>sprites\spr_cabinet_one</sprite>
+      <sprite>sprites\spr_cabinet_two</sprite>
+      <sprite>sprites\spr_backdrop_one</sprite>
+      <sprite>sprites\spr_fridge_one</sprite>
+    </sprites>
+    <sprite>sprites\sprite215</sprite>
     <sprite>sprites\spr_checkpoint_two_old</sprite>
   </sprites>
   <backgrounds name="background">
@@ -406,6 +413,7 @@
       <object>objects\obj_rm_tutorial_view</object>
       <object>objects\obj_rm_main_two_view</object>
       <object>objects\obj_rm_secret_one_view</object>
+      <object>objects\obj_rm_view</object>
     </objects>
     <objects name="initialize">
       <object>objects\obj_initialize</object>
@@ -668,6 +676,10 @@
     <object>objects\obj_server</object>
     <object>objects\obj_console_table</object>
     <object>objects\obj_checkpoint_one</object>
+    <objects name="kitchen">
+      <object>objects\obj_backdrop_one</object>
+      <object>objects\obj_fridge_one</object>
+    </objects>
     <object>objects\obj_wreaking_ball</object>
   </objects>
   <rooms name="rooms">
