@@ -371,10 +371,22 @@
     <sprite>sprites\spr_checkpoint_one</sprite>
     <sprite>sprites\spr_checkpoint_two</sprite>
     <sprites name="kitchen">
-      <sprite>sprites\spr_cabinet_one</sprite>
-      <sprite>sprites\spr_cabinet_two</sprite>
-      <sprite>sprites\spr_backsplash_one</sprite>
-      <sprite>sprites\spr_backsplash_two</sprite>
+      <sprites name="spr_cabinet">
+        <sprite>sprites\spr_cabinet_one_one</sprite>
+        <sprite>sprites\spr_cabinet_one_two</sprite>
+        <sprite>sprites\spr_cabinet_two_one</sprite>
+        <sprite>sprites\spr_cabinet_two_two</sprite>
+        <sprite>sprites\spr_painting_one</sprite>
+        <sprite>sprites\spr_painting_one_old</sprite>
+        <sprite>sprites\spr_cabinet_two_three</sprite>
+        <sprites name="spr_cabinet_old">
+          <sprite>sprites\spr_cabinet_one_two_old</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="spr_backsplash">
+        <sprite>sprites\spr_backsplash_one</sprite>
+        <sprite>sprites\spr_backsplash_two</sprite>
+      </sprites>
       <sprites name="spr_backsplash_old">
         <sprite>sprites\spr_backsplash_two_old</sprite>
       </sprites>
@@ -393,6 +405,7 @@
         <sprite>sprites\spr_fridge_two</sprite>
       </sprites>
       <sprite>sprites\sprite215</sprite>
+      <sprite>sprites\sprite227</sprite>
     </sprites>
     <sprite>sprites\spr_checkpoint_two_old</sprite>
   </sprites>
@@ -699,6 +712,12 @@
       <object>objects\obj_fridge_two</object>
       <object>objects\obj_stove_two</object>
       <object>objects\obj_fridge_one</object>
+      <object>objects\obj_cabinet_one_one</object>
+      <object>objects\obj_cabinet_one_two</object>
+      <object>objects\obj_cabinet_two_one</object>
+      <object>objects\obj_cabinet_two_two</object>
+      <object>objects\obj_painting_one</object>
+      <object>objects\obj_cabinet_two_three</object>
     </objects>
     <object>objects\obj_wreaking_ball</object>
   </objects>
