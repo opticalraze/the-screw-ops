@@ -190,7 +190,9 @@
       <sprite>sprites\spr_rock</sprite>
       <sprite>sprites\spr_computer</sprite>
       <sprite>sprites\spr_monitor</sprite>
-      <sprite>sprites\spr_clock</sprite>
+      <sprite>sprites\spr_clock_one</sprite>
+      <sprite>sprites\spr_clock_old_2</sprite>
+      <sprite>sprites\spr_clock_old_1</sprite>
       <sprite>sprites\spr_throne</sprite>
       <sprite>sprites\spr_throne_base</sprite>
     </sprites>
@@ -234,10 +236,22 @@
         <sprite>sprites\spr_mine_idle</sprite>
         <sprite>sprites\spr_mine_two_idle</sprite>
         <sprite>sprites\spr_mine_two_active</sprite>
+        <sprite>sprites\spr_bench</sprite>
       </sprites>
       <sprites name="spr_table">
-        <sprite>sprites\spr_table_one</sprite>
+        <sprite>sprites\spr_table_one_1</sprite>
+        <sprite>sprites\spr_table_one_2</sprite>
         <sprite>sprites\spr_table_two</sprite>
+        <sprites name="spr_table_old">
+          <sprite>sprites\spr_table_old_2</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="spr_chair">
+        <sprite>sprites\spr_chair_one_1</sprite>
+        <sprite>sprites\spr_chair_one_2</sprite>
+        <sprites name="spr_chair_old">
+          <sprite>sprites\spr_chair_old</sprite>
+        </sprites>
       </sprites>
       <sprites name="spr_pot">
         <sprite>sprites\spr_pot</sprite>
@@ -296,11 +310,6 @@
       <sprite>sprites\spr_player_head3</sprite>
       <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_window</sprite>
-      <sprites name="Furniture">
-        <sprite>sprites\spr_table</sprite>
-        <sprite>sprites\spr_chair</sprite>
-        <sprite>sprites\spr_bench</sprite>
-      </sprites>
       <sprite>sprites\spr_keypad_old_two</sprite>
       <sprite>sprites\spr_keypad_old</sprite>
       <sprite>sprites\spr_billboard</sprite>
@@ -355,6 +364,7 @@
     <sprite>sprites\spr_countdown</sprite>
     <sprite>sprites\spr_screen_one</sprite>
     <sprite>sprites\spr_line</sprite>
+    <sprite>sprites\spr_molding_six</sprite>
     <sprite>sprites\spr_line_mark</sprite>
     <sprites name="spr_pipe">
       <sprite>sprites\spr_pipe_two</sprite>
@@ -370,15 +380,15 @@
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_checkpoint_one</sprite>
     <sprite>sprites\spr_checkpoint_two</sprite>
+    <sprite>sprites\spr_painting_one</sprite>
+    <sprite>sprites\spr_painting_one_old</sprite>
     <sprites name="kitchen">
       <sprites name="spr_cabinet">
-        <sprite>sprites\spr_cabinet_one_one</sprite>
-        <sprite>sprites\spr_cabinet_one_two</sprite>
-        <sprite>sprites\spr_cabinet_two_one</sprite>
-        <sprite>sprites\spr_cabinet_two_two</sprite>
-        <sprite>sprites\spr_painting_one</sprite>
-        <sprite>sprites\spr_painting_one_old</sprite>
-        <sprite>sprites\spr_cabinet_two_three</sprite>
+        <sprite>sprites\spr_cabinet_one_1</sprite>
+        <sprite>sprites\spr_cabinet_one_2</sprite>
+        <sprite>sprites\spr_cabinet_two_1</sprite>
+        <sprite>sprites\spr_cabinet_two_2</sprite>
+        <sprite>sprites\spr_cabinet_two_3</sprite>
         <sprites name="spr_cabinet_old">
           <sprite>sprites\spr_cabinet_one_two_old</sprite>
         </sprites>
@@ -539,9 +549,26 @@
       <object>objects\obj_balloon</object>
       <object>objects\obj_tv_one</object>
       <object>objects\obj_crib</object>
-      <object>objects\obj_table</object>
-      <object>objects\obj_chair</object>
-      <object>objects\obj_pot</object>
+      <objects name="obj_table">
+        <object>objects\obj_table_one_1</object>
+        <object>objects\obj_table_one_2</object>
+        <object>objects\obj_table_two</object>
+        <objects name="obj_table_old">
+          <object>objects\obj_table_old_one</object>
+        </objects>
+      </objects>
+      <objects name="obj_chair">
+        <object>objects\obj_chair_one_1</object>
+        <object>objects\obj_chair_one_2</object>
+        <objects name="obj_chair_old">
+          <object>objects\obj_chair_old</object>
+        </objects>
+      </objects>
+      <objects name="obj_pot">
+        <object>objects\obj_pot</object>
+        <object>objects\obj_pot_one</object>
+        <object>objects\obj_pot_two</object>
+      </objects>
       <object>objects\obj_painting</object>
       <object>objects\obj_spike</object>
       <object>objects\obj_mine_two</object>
@@ -556,10 +583,7 @@
         <object>objects\obj_enemy_three_old</object>
       </objects>
       <object>objects\obj_lightswitch</object>
-      <object>objects\obj_pot_one</object>
-      <object>objects\obj_table_one</object>
       <object>objects\obj_rock</object>
-      <object>objects\obj_table_two</object>
       <object>objects\obj_nuke_one</object>
       <object>objects\obj_teleporter</object>
       <object>objects\obj_painting_maze_dodger</object>
@@ -719,7 +743,9 @@
       <object>objects\obj_painting_one</object>
       <object>objects\obj_cabinet_two_three</object>
     </objects>
+    <object>objects\obj_clock_one</object>
     <object>objects\obj_wreaking_ball</object>
+    <object>objects\obj_molding_six</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>

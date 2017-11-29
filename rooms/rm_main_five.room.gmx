@@ -152,8 +152,8 @@
     <instance objName="obj_elevator_door" x="704" y="254" name="inst_47E22D87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_elevator_button" x="736" y="266" name="inst_6DDAD61D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_elevator_sign" x="711" y="244" name="inst_06A258A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_table_one" x="656" y="256" name="inst_6F74108C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pot_one" x="656" y="241" name="inst_88A1F0AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_table_two" x="656" y="256" name="inst_6F74108C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pot_two" x="656" y="241" name="inst_88A1F0AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="384" y="256" name="inst_FFF5A786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="384" y="224" name="inst_7F322410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="384" y="192" name="inst_E3416BAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

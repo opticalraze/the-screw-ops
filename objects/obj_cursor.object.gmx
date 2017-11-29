@@ -486,6 +486,7 @@ if (!global.pause &amp;&amp; !global.dead) {
             <string>// Break the pot
 if (!global.pause &amp;&amp; !global.dead) {
     if (mouse_check_button_pressed(mb_left)) {
+        instance_create(other.x, other.y, obj_pot_break);
         instance_destroy(other);
     }
 }
