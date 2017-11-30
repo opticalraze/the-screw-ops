@@ -385,16 +385,21 @@
     <sprites name="kitchen">
       <sprites name="spr_cabinet">
         <sprite>sprites\spr_cabinet_one_1</sprite>
+        <sprite>sprites\spr_cabinet_one_3</sprite>
+        <sprite>sprites\spr_cabinet_one_4</sprite>
         <sprite>sprites\spr_cabinet_one_2</sprite>
         <sprite>sprites\spr_cabinet_two_1</sprite>
         <sprite>sprites\spr_cabinet_two_2</sprite>
         <sprite>sprites\spr_cabinet_two_3</sprite>
         <sprites name="spr_cabinet_old">
+          <sprite>sprites\spr_cabinet_one_1_old</sprite>
+          <sprite>sprites\spr_cabinet_one_2_old</sprite>
           <sprite>sprites\spr_cabinet_one_two_old</sprite>
         </sprites>
       </sprites>
       <sprites name="spr_backsplash">
-        <sprite>sprites\spr_backsplash_one</sprite>
+        <sprite>sprites\spr_backsplash_one_1</sprite>
+        <sprite>sprites\spr_backsplash_one_2</sprite>
         <sprite>sprites\spr_backsplash_two</sprite>
       </sprites>
       <sprites name="spr_backsplash_old">
@@ -427,6 +432,7 @@
     <background>background\bg_five</background>
     <background>background\bg_four</background>
     <background>background\bg_three</background>
+    <background>background\bg_seven</background>
     <background>background\bg_two</background>
     <background>background\bg_wall4</background>
     <background>background\bg_elevator</background>
@@ -731,17 +737,20 @@
     <object>objects\obj_console_table</object>
     <object>objects\obj_checkpoint_one</object>
     <objects name="kitchen">
-      <object>objects\obj_backsplash_one</object>
+      <object>objects\obj_backsplash_one_1</object>
+      <object>objects\obj_backsplash_one_2</object>
       <object>objects\obj_backsplash_two</object>
       <object>objects\obj_fridge_two</object>
       <object>objects\obj_stove_two</object>
       <object>objects\obj_fridge_one</object>
-      <object>objects\obj_cabinet_one_one</object>
-      <object>objects\obj_cabinet_one_two</object>
-      <object>objects\obj_cabinet_two_one</object>
-      <object>objects\obj_cabinet_two_two</object>
+      <object>objects\obj_cabinet_one_1</object>
+      <object>objects\obj_cabinet_one_2</object>
+      <object>objects\obj_cabinet_one_3</object>
+      <object>objects\obj_cabinet_one_4</object>
+      <object>objects\obj_cabinet_two_1</object>
+      <object>objects\obj_cabinet_two_2</object>
+      <object>objects\obj_cabinet_two_3</object>
       <object>objects\obj_painting_one</object>
-      <object>objects\obj_cabinet_two_three</object>
     </objects>
     <object>objects\obj_clock_one</object>
     <object>objects\obj_wreaking_ball</object>

@@ -129,10 +129,10 @@
     <instance objName="obj_floor" x="640" y="256" name="inst_05251B40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fridge_two" x="478" y="240" name="inst_7BDFD8F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stove_two" x="577" y="250" name="inst_06E20E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinet_two_one" x="509" y="257" name="inst_8D9BD449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinet_two_one" x="535" y="257" name="inst_B47400D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinet_two_two" x="506" y="257" name="inst_8E19C231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinet_two_three" x="561" y="257" name="inst_7F4942A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cabinet_two_1" x="509" y="257" name="inst_8D9BD449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cabinet_two_1" x="535" y="257" name="inst_B47400D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cabinet_two_2" x="506" y="257" name="inst_8E19C231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cabinet_two_3" x="561" y="257" name="inst_7F4942A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_three" x="608" y="254" name="inst_5AEAE4EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_painting_one" x="528" y="230" name="inst_95CA04EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_view" x="32" y="160" name="inst_F425D37B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
