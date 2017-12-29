@@ -407,6 +407,7 @@
       </sprites>
       <sprites name="spr_stove">
         <sprite>sprites\spr_stove_two</sprite>
+        <sprite>sprites\spr_stove_one</sprite>
         <sprites name="spr_stove_old">
           <sprite>sprites\spr_stove_two_old</sprite>
         </sprites>
@@ -421,7 +422,11 @@
       </sprites>
       <sprite>sprites\sprite215</sprite>
       <sprite>sprites\sprite227</sprite>
+      <sprite>sprites\spr_vent_kitchen_two_1</sprite>
+      <sprite>sprites\spr_window_kitchen_two</sprite>
+      <sprite>sprites\spr_floor_kitchen_two</sprite>
     </sprites>
+    <sprite>sprites\spr_socket</sprite>
     <sprite>sprites\spr_checkpoint_two_old</sprite>
   </sprites>
   <backgrounds name="background">
@@ -434,8 +439,13 @@
     <background>background\bg_three</background>
     <background>background\bg_seven</background>
     <background>background\bg_two</background>
+    <background>background\bg_city_2</background>
+    <background>background\bg_city_1</background>
+    <background>background\bg_city_old</background>
     <background>background\bg_wall4</background>
     <background>background\bg_elevator</background>
+    <background>background\bg_polution</background>
+    <background>background\bg_polution_old</background>
     <background>background\bg_bsod_one</background>
     <background>background\bg_bsod_two</background>
     <background>background\bg_bsod_three</background>
@@ -751,10 +761,14 @@
       <object>objects\obj_cabinet_two_2</object>
       <object>objects\obj_cabinet_two_3</object>
       <object>objects\obj_painting_one</object>
+      <object>objects\obj_window_kitchen_two</object>
+      <object>objects\obj_vent_kitchen_two_1</object>
+      <object>objects\obj_floor_kitchen_two</object>
     </objects>
     <object>objects\obj_clock_one</object>
     <object>objects\obj_wreaking_ball</object>
     <object>objects\obj_molding_six</object>
+    <object>objects\obj_socket</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
