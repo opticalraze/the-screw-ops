@@ -207,6 +207,8 @@
     <instance objName="obj_help_seven" x="311" y="37" name="inst_7A25CCD4" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_help_eight" x="255" y="54" name="inst_07196BB7" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_nine" x="544" y="64" name="inst_2BF315DB" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_au_ag" x="575" y="57" name="inst_53CC583A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light_warning_1" x="556" y="52" name="inst_2E70E4DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

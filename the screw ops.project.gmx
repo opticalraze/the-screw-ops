@@ -427,6 +427,8 @@
       <sprite>sprites\spr_floor_kitchen_two</sprite>
     </sprites>
     <sprite>sprites\spr_socket</sprite>
+    <sprite>sprites\spr_au_ag</sprite>
+    <sprite>sprites\spr_light_warning_1</sprite>
     <sprite>sprites\spr_checkpoint_two_old</sprite>
   </sprites>
   <backgrounds name="background">
@@ -768,6 +770,8 @@
     <object>objects\obj_clock_one</object>
     <object>objects\obj_wreaking_ball</object>
     <object>objects\obj_molding_six</object>
+    <object>objects\obj_au_ag</object>
+    <object>objects\obj_light_warning_1</object>
     <object>objects\obj_socket</object>
   </objects>
   <rooms name="rooms">
