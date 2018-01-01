@@ -165,7 +165,7 @@
     <instance objName="obj_floor_kitchen_two" x="608" y="288" name="inst_DA469E0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor_kitchen_two" x="480" y="288" name="inst_4BBC08FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor_kitchen_two" x="448" y="288" name="inst_7960F9FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_window_kitchen_two" x="524" y="224" name="inst_DA1CD1BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_window_kitchen_two_1" x="524" y="224" name="inst_DA1CD1BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vent_kitchen_two_1" x="149" y="279" name="inst_401C7BA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vent_kitchen_two_1" x="39" y="279" name="inst_0E648976" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vent_kitchen_two_1" x="428" y="279" name="inst_98AE4794" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -408,6 +408,7 @@
       <sprites name="spr_stove">
         <sprite>sprites\spr_stove_two</sprite>
         <sprite>sprites\spr_stove_one</sprite>
+        <sprite>sprites\spr_microwave_one</sprite>
         <sprites name="spr_stove_old">
           <sprite>sprites\spr_stove_two_old</sprite>
         </sprites>
@@ -423,6 +424,7 @@
       <sprite>sprites\sprite215</sprite>
       <sprite>sprites\sprite227</sprite>
       <sprite>sprites\spr_vent_kitchen_two_1</sprite>
+      <sprite>sprites\spr_window_kitchen_one_1</sprite>
       <sprite>sprites\spr_window_kitchen_two</sprite>
       <sprite>sprites\spr_floor_kitchen_two</sprite>
     </sprites>
@@ -754,6 +756,8 @@
       <object>objects\obj_backsplash_two</object>
       <object>objects\obj_fridge_two</object>
       <object>objects\obj_stove_two</object>
+      <object>objects\obj_stove_one</object>
+      <object>objects\obj_microwave_one</object>
       <object>objects\obj_fridge_one</object>
       <object>objects\obj_cabinet_one_1</object>
       <object>objects\obj_cabinet_one_2</object>
@@ -763,7 +767,8 @@
       <object>objects\obj_cabinet_two_2</object>
       <object>objects\obj_cabinet_two_3</object>
       <object>objects\obj_painting_one</object>
-      <object>objects\obj_window_kitchen_two</object>
+      <object>objects\obj_window_kitchen_two_1</object>
+      <object>objects\obj_window_kitchen_one_1</object>
       <object>objects\obj_vent_kitchen_two_1</object>
       <object>objects\obj_floor_kitchen_two</object>
     </objects>
