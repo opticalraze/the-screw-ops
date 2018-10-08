@@ -64,55 +64,20 @@
     <sound>sound\snd_trippy</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_enemy_spider</sprite>
-    <sprite>sprites\spr_floor</sprite>
-    <sprites name="spr_floor">
-      <sprites name="spr_slope">
-        <sprites name="spr_slope_one">
-          <sprite>sprites\spr_slope_one_one</sprite>
-          <sprite>sprites\spr_slope_two_one</sprite>
-          <sprite>sprites\spr_slope_three_one</sprite>
-          <sprite>sprites\spr_slope_four_one</sprite>
-        </sprites>
-        <sprites name="spr_slope_three">
-          <sprite>sprites\spr_slope_one_three</sprite>
-          <sprite>sprites\spr_slope_two_three</sprite>
-          <sprite>sprites\spr_slope_three_three</sprite>
-          <sprite>sprites\spr_slope_four_three</sprite>
-        </sprites>
-      </sprites>
-      <sprites name="spr_slab">
-        <sprites name="spr_slab_one">
-          <sprite>sprites\spr_slab_one_one</sprite>
-          <sprite>sprites\spr_slab_two_one</sprite>
-        </sprites>
-        <sprites name="spr_slab_three">
-          <sprite>sprites\spr_slab_one_three</sprite>
-          <sprite>sprites\spr_slab_two_three</sprite>
-        </sprites>
-      </sprites>
-      <sprites name="spr_stair">
-        <sprites name="spr_stair_one">
-          <sprite>sprites\spr_stair_one_one</sprite>
-          <sprite>sprites\spr_stair_two_one</sprite>
-          <sprite>sprites\spr_stair_three_one</sprite>
-          <sprite>sprites\spr_stair_four_one</sprite>
-        </sprites>
-        <sprites name="spr_stair_three">
-          <sprite>sprites\spr_stair_one_three</sprite>
-          <sprite>sprites\spr_stair_two_three</sprite>
-          <sprite>sprites\spr_stair_three_three</sprite>
-          <sprite>sprites\spr_stair_four_three</sprite>
-        </sprites>
-      </sprites>
-      <sprites name="spr_floor">
-        <sprite>sprites\spr_floor_one</sprite>
-        <sprite>sprites\spr_floor_two</sprite>
-        <sprite>sprites\spr_floor_three</sprite>
-        <sprite>sprites\spr_floor_four</sprite>
-        <sprite>sprites\spr_floor_five</sprite>
-      </sprites>
+    <sprites name="placeholders">
+      <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr_stair_one</sprite>
+      <sprite>sprites\spr_stair_two</sprite>
+      <sprite>sprites\spr_stair_three</sprite>
+      <sprite>sprites\spr_stair_four</sprite>
+      <sprite>sprites\spr_slab_one</sprite>
+      <sprite>sprites\spr_slab_two</sprite>
+      <sprite>sprites\spr_slope_one</sprite>
+      <sprite>sprites\spr_slope_two</sprite>
+      <sprite>sprites\spr_slope_three</sprite>
+      <sprite>sprites\spr_slope_four</sprite>
     </sprites>
+    <sprite>sprites\spr_enemy_spider</sprite>
     <sprites name="spr_enemy">
       <sprites name="spr_enemy_one">
         <sprite>sprites\spr_enemy_one</sprite>
@@ -325,6 +290,7 @@
       <sprite>sprites\spr_grim_reaper</sprite>
       <sprite>sprites\spr_keypad_gui</sprite>
       <sprite>sprites\spr_bars</sprite>
+      <sprite>sprites\spr_floor_old</sprite>
     </sprites>
     <sprites name="spr_target">
       <sprite>sprites\spr_target_one</sprite>
@@ -467,6 +433,9 @@
       </backgrounds>
       <background>background\tl_floor</background>
       <background>background\tl_wall</background>
+      <background>background\tl_stair</background>
+      <background>background\tl_slab</background>
+      <background>background\tl_slope</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -484,6 +453,17 @@
     <font>fonts\fnt_debug</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_floor</object>
+    <object>objects\obj_stair_one</object>
+    <object>objects\obj_stair_two</object>
+    <object>objects\obj_stair_three</object>
+    <object>objects\obj_stair_four</object>
+    <object>objects\obj_slab_one</object>
+    <object>objects\obj_slab_two</object>
+    <object>objects\obj_slope_one</object>
+    <object>objects\obj_slope_two</object>
+    <object>objects\obj_slope_three</object>
+    <object>objects\obj_slope_four</object>
     <objects name="views">
       <object>objects\obj_rm_tutorial_view</object>
       <object>objects\obj_rm_main_two_view</object>
@@ -517,47 +497,6 @@
         <object>objects\obj_action</object>
         <object>objects\obj_gui</object>
         <object>objects\obj_credits</object>
-      </objects>
-    </objects>
-    <objects name="obj_floor">
-      <object>objects\obj_floor</object>
-      <objects name="obj_slope">
-        <objects name="obj_slope_one">
-          <object>objects\obj_slope_one_one</object>
-          <object>objects\obj_slope_two_one</object>
-          <object>objects\obj_slope_three_one</object>
-          <object>objects\obj_slope_four_one</object>
-        </objects>
-        <objects name="obj_slope_three">
-          <object>objects\obj_slope_one_three</object>
-          <object>objects\obj_slope_two_three</object>
-          <object>objects\obj_slope_three_three</object>
-          <object>objects\obj_slope_four_three</object>
-        </objects>
-      </objects>
-      <objects name="obj_slab">
-        <objects name="obj_slab_one">
-          <object>objects\obj_slab_one_one</object>
-          <object>objects\obj_slab_two_one</object>
-        </objects>
-        <objects name="obj_slab_three">
-          <object>objects\obj_slab_one_three</object>
-          <object>objects\obj_slab_two_three</object>
-        </objects>
-      </objects>
-      <objects name="obj_stair">
-        <objects name="obj_stair_one">
-          <object>objects\obj_stair_one_one</object>
-          <object>objects\obj_stair_two_one</object>
-          <object>objects\obj_stair_three_one</object>
-          <object>objects\obj_stair_four_one</object>
-        </objects>
-        <objects name="obj_stair_three">
-          <object>objects\obj_stair_one_three</object>
-          <object>objects\obj_stair_two_three</object>
-          <object>objects\obj_stair_three_three</object>
-          <object>objects\obj_stair_four_three</object>
-        </objects>
       </objects>
     </objects>
     <objects name="cutscene_one">
