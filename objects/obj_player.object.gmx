@@ -319,6 +319,35 @@ if global.hp = 0{
         </arguments>
       </action>
     </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_color(c_yellow);
+draw_set_font(fnt_debug);
+
+
+draw_text(0, 10, "FPS = " + string(fps));
+draw_text(0, 20, "Instances = " + string(instance_count));
+draw_text(0, 30, "Real FPS = " + string(fps_real));
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="112">
       <action>
         <libid>1</libid>

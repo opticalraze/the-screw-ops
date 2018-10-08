@@ -177,13 +177,6 @@
     </sprites>
     <sprites name="aesthetics">
       <sprite>sprites\spr_vending_machine</sprite>
-      <sprites name="spr_molding">
-        <sprite>sprites\spr_molding_one</sprite>
-        <sprite>sprites\spr_molding_two</sprite>
-        <sprite>sprites\spr_molding_three</sprite>
-        <sprite>sprites\spr_molding_four</sprite>
-        <sprite>sprites\spr_molding_five</sprite>
-      </sprites>
       <sprite>sprites\spr_lightswitch</sprite>
       <sprite>sprites\spr_intercom</sprite>
       <sprite>sprites\spr_intercom_mark</sprite>
@@ -325,15 +318,17 @@
       </sprites>
       <sprite>sprites\spr_nuke_old</sprite>
     </sprites>
-    <sprite>sprites\spr_bars</sprite>
-    <sprite>sprites\spr_keypad_gui</sprite>
-    <sprite>sprites\spr_grim_reaper</sprite>
     <sprites name="spr_nuke">
       <sprite>sprites\spr_nuke_two</sprite>
       <sprite>sprites\spr_nuke_one</sprite>
     </sprites>
-    <sprite>sprites\spr_rm_elevator_one</sprite>
-    <sprite>sprites\spr_main_menu</sprite>
+    <sprites name="old">
+      <sprite>sprites\spr_main_menu</sprite>
+      <sprite>sprites\spr_rm_elevator_one</sprite>
+      <sprite>sprites\spr_grim_reaper</sprite>
+      <sprite>sprites\spr_keypad_gui</sprite>
+      <sprite>sprites\spr_bars</sprite>
+    </sprites>
     <sprites name="spr_target">
       <sprite>sprites\spr_target_one</sprite>
       <sprite>sprites\spr_target_two</sprite>
@@ -355,17 +350,6 @@
       <sprite>sprites\spr_arrow_two</sprite>
       <sprite>sprites\spr_arrow_three</sprite>
     </sprites>
-    <sprite>sprites\spr_f_key</sprite>
-    <sprite>sprites\spr_f_key_old</sprite>
-    <sprite>sprites\spr_sign_one</sprite>
-    <sprite>sprites\spr_console</sprite>
-    <sprite>sprites\spr_consol_table</sprite>
-    <sprite>sprites\spr_screen_two</sprite>
-    <sprite>sprites\spr_countdown</sprite>
-    <sprite>sprites\spr_screen_one</sprite>
-    <sprite>sprites\spr_line</sprite>
-    <sprite>sprites\spr_molding_six</sprite>
-    <sprite>sprites\spr_line_mark</sprite>
     <sprites name="spr_pipe">
       <sprite>sprites\spr_pipe_two</sprite>
       <sprite>sprites\spr_pipe_three</sprite>
@@ -374,14 +358,10 @@
       <sprite>sprites\spr_pipe_six</sprite>
       <sprite>sprites\spr_pipe_one</sprite>
     </sprites>
-    <sprite>sprites\spr_sign_two</sprite>
-    <sprite>sprites\spr_server</sprite>
-    <sprite>sprites\spr_wreaking_ball</sprite>
-    <sprite>sprites\spr_chain</sprite>
-    <sprite>sprites\spr_checkpoint_one</sprite>
-    <sprite>sprites\spr_checkpoint_two</sprite>
-    <sprite>sprites\spr_painting_one</sprite>
-    <sprite>sprites\spr_painting_one_old</sprite>
+    <sprites name="paintings">
+      <sprite>sprites\spr_painting_one_old</sprite>
+      <sprite>sprites\spr_painting_one</sprite>
+    </sprites>
     <sprites name="kitchen">
       <sprites name="spr_cabinet">
         <sprite>sprites\spr_cabinet_one_1</sprite>
@@ -428,35 +408,74 @@
       <sprite>sprites\spr_window_kitchen_two</sprite>
       <sprite>sprites\spr_floor_kitchen_two</sprite>
     </sprites>
-    <sprite>sprites\spr_socket</sprite>
-    <sprite>sprites\spr_au_ag</sprite>
-    <sprite>sprites\spr_light_warning_1</sprite>
-    <sprite>sprites\spr_checkpoint_two_old</sprite>
+    <sprites name="objects">
+      <sprite>sprites\spr_checkpoint_two_old</sprite>
+      <sprite>sprites\spr_light_warning_1</sprite>
+      <sprite>sprites\spr_au_ag</sprite>
+      <sprite>sprites\spr_socket</sprite>
+      <sprite>sprites\spr_checkpoint_two</sprite>
+      <sprite>sprites\spr_checkpoint_one</sprite>
+      <sprite>sprites\spr_chain</sprite>
+      <sprite>sprites\spr_wreaking_ball</sprite>
+      <sprite>sprites\spr_server</sprite>
+      <sprite>sprites\spr_sign_two</sprite>
+      <sprite>sprites\spr_line_mark</sprite>
+      <sprite>sprites\spr_molding_six</sprite>
+      <sprite>sprites\spr_line</sprite>
+      <sprite>sprites\spr_screen_one</sprite>
+      <sprite>sprites\spr_screen_two</sprite>
+      <sprite>sprites\spr_consol_table</sprite>
+      <sprite>sprites\spr_console</sprite>
+      <sprite>sprites\spr_sign_one</sprite>
+      <sprite>sprites\spr_f_key_old</sprite>
+      <sprite>sprites\spr_f_key</sprite>
+      <sprite>sprites\spr_countdown</sprite>
+    </sprites>
+    <sprite>sprites\spr_font</sprite>
+    <sprite>sprites\spr_font_old2</sprite>
+    <sprite>sprites\spr_font_old</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_wall2</background>
-    <background>background\bg_wall</background>
-    <background>background\bg_wall3</background>
-    <background>background\bg_one</background>
-    <background>background\bg_five</background>
-    <background>background\bg_four</background>
-    <background>background\bg_three</background>
-    <background>background\bg_seven</background>
-    <background>background\bg_two</background>
-    <background>background\bg_city_2</background>
-    <background>background\bg_city_1</background>
-    <background>background\bg_city_old</background>
-    <background>background\bg_wall4</background>
-    <background>background\bg_elevator</background>
-    <background>background\bg_polution</background>
-    <background>background\bg_polution_old</background>
-    <background>background\bg_bsod_one</background>
-    <background>background\bg_bsod_two</background>
-    <background>background\bg_bsod_three</background>
-    <background>background\bg_tunnel_one</background>
-    <background>background\bg_trippy</background>
-    <background>background\bg_six</background>
-    <background>background\bg_trippy_two</background>
+    <backgrounds name="backgrounds">
+      <background>background\bg_trippy_two</background>
+      <background>background\bg_six</background>
+      <background>background\bg_trippy</background>
+      <background>background\bg_tunnel_one</background>
+      <background>background\bg_bsod_three</background>
+      <background>background\bg_bsod_two</background>
+      <background>background\bg_bsod_one</background>
+      <background>background\bg_polution_old</background>
+      <background>background\bg_polution</background>
+      <background>background\bg_elevator</background>
+      <background>background\bg_wall4</background>
+      <background>background\bg_city_old</background>
+      <background>background\bg_city_1</background>
+      <background>background\bg_city_2</background>
+      <background>background\bg_two</background>
+      <background>background\bg_seven</background>
+      <background>background\bg_three</background>
+      <background>background\bg_four</background>
+      <background>background\bg_five</background>
+      <background>background\bg_one</background>
+      <background>background\bg_wall3</background>
+      <background>background\bg_wall</background>
+      <background>background\bg_wall2</background>
+    </backgrounds>
+    <backgrounds name="tiles">
+      <backgrounds name="floor">
+        <background>background\tl_floor_one</background>
+        <background>background\tl_floor_two</background>
+        <background>background\tl_floor_three</background>
+        <background>background\tl_floor_four</background>
+        <background>background\tl_floor</background>
+      </backgrounds>
+      <backgrounds name="aesthetics">
+        <backgrounds name="molding">
+          <background>background\tl_molding_one</background>
+          <background>background\tl_molding_two</background>
+        </backgrounds>
+      </backgrounds>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -464,10 +483,14 @@
     <script>scripts\get_input.gml</script>
     <script>scripts\scr_shadow.gml</script>
     <script>scripts\scr_f_key.gml</script>
+    <script>scripts\drawText.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_sin_city.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\fnt_debug</font>
+  </fonts>
   <objects name="objects">
     <objects name="views">
       <object>objects\obj_rm_tutorial_view</object>
@@ -506,11 +529,6 @@
     </objects>
     <objects name="obj_floor">
       <object>objects\obj_floor</object>
-      <objects name="obj_floor">
-        <object>objects\obj_floor_one</object>
-        <object>objects\obj_floor_two</object>
-        <object>objects\obj_floor_three</object>
-      </objects>
       <objects name="obj_slope">
         <objects name="obj_slope_one">
           <object>objects\obj_slope_one_one</object>
@@ -648,13 +666,6 @@
       <object>objects\obj_elevator_sign</object>
       <object>objects\obj_elevator_door</object>
       <object>objects\obj_door_six</object>
-    </objects>
-    <objects name="obj_molding">
-      <object>objects\obj_molding_one</object>
-      <object>objects\obj_molding_two</object>
-      <object>objects\obj_molding_three</object>
-      <object>objects\obj_molding_four</object>
-      <object>objects\obj_molding_five</object>
     </objects>
     <objects name="obj_trigger">
       <object>objects\obj_trigger_fourteen</object>

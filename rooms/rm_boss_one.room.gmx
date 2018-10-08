@@ -100,7 +100,6 @@
     <instance objName="obj_floor" x="960" y="0" name="inst_1A7494E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="545" y="238" name="inst_69F72461" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boss_view" x="32" y="0" name="inst_BA0E8B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="992" y="256" name="inst_4D66B8D0" locked="0" code="type = 12;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mine" x="704" y="192" name="inst_D285E7A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mine" x="352" y="192" name="inst_67B2549F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mine" x="128" y="192" name="inst_5FCBBE26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

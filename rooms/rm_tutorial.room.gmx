@@ -3,8 +3,8 @@
   <caption></caption>
   <width>640</width>
   <height>320</height>
-  <vsnap>1</vsnap>
-  <hsnap>1</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -81,24 +81,6 @@
     <instance objName="obj_floor" x="0" y="32" name="inst_54F3D650" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="0" y="0" name="inst_A8B6249D" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="83" y="270" name="inst_32EF62B2" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="224" y="288" name="inst_128B20BE" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="256" y="288" name="inst_95B25DF9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="288" y="288" name="inst_6B11940E" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="320" y="288" name="inst_3C5C6378" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="352" y="288" name="inst_C430F262" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="384" y="288" name="inst_05C46F50" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="32" y="288" name="inst_ECE59981" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="64" y="288" name="inst_2BEA2BD2" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="96" y="288" name="inst_3274F785" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="128" y="288" name="inst_1C1E3D57" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="160" y="288" name="inst_E8C03E9E" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="192" y="288" name="inst_4B254116" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="416" y="288" name="inst_0D4E51F5" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="448" y="288" name="inst_24CC39D7" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="480" y="288" name="inst_4DDF3BD9" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="512" y="288" name="inst_B3B15321" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="544" y="288" name="inst_4C03DB31" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_two" x="576" y="288" name="inst_9C924E62" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel_one" x="41" y="254" name="inst_3D662F3B" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel_one" x="49" y="271" name="inst_01422A77" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barrel_one" x="34" y="271" name="inst_15D50617" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -170,27 +152,10 @@
     <instance objName="obj_wall_one" x="608" y="64" name="inst_F96B7B84" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_one" x="608" y="32" name="inst_F7324FC6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_one" x="608" y="0" name="inst_1525D374" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="576" y="96" name="inst_DD3EEF66" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="544" y="96" name="inst_E8424887" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="512" y="96" name="inst_92E1FC3C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="480" y="96" name="inst_010FBBE3" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="416" y="96" name="inst_82F29A1A" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="384" y="96" name="inst_834C02FE" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="320" y="96" name="inst_35ACC146" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="288" y="96" name="inst_70F03B73" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="256" y="96" name="inst_DE994DB3" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="224" y="96" name="inst_4423A946" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="192" y="96" name="inst_F0045EC1" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="32" y="96" name="inst_6B725F66" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="64" y="96" name="inst_00EBCDDD" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="96" y="96" name="inst_8BA0AECE" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="128" y="96" name="inst_EE97D500" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="160" y="96" name="inst_29CC46C4" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_one" x="560" y="96" name="inst_E17ADA48" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_poster_two" x="558" y="228" name="inst_79D15FA8" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_help_four" x="384" y="32" name="inst_2D0BB42C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="352" y="96" name="inst_CC6EC05F" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor_one" x="352" y="96" name="inst_B4CC9C21" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_three" x="480" y="50" name="inst_D74659D1" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_balloon" x="375" y="65" name="inst_5F5790CF" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_one" x="64" y="96" name="inst_B6689371" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -209,7 +174,43 @@
     <instance objName="obj_trigger_nine" x="544" y="64" name="inst_2BF315DB" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_au_ag" x="575" y="57" name="inst_53CC583A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="tl_floor" x="32" y="288" w="32" h="32" xo="32" yo="0" id="10000405" name="inst_FBF85E50" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="64" y="288" w="32" h="32" xo="32" yo="0" id="10000406" name="inst_C1A9E3EE" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="96" y="288" w="32" h="32" xo="32" yo="0" id="10000407" name="inst_6A8955F7" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="128" y="288" w="32" h="32" xo="32" yo="0" id="10000408" name="inst_F5AE1849" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="160" y="288" w="32" h="32" xo="32" yo="0" id="10000409" name="inst_B00653AF" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="192" y="288" w="32" h="32" xo="32" yo="0" id="10000410" name="inst_F36B62C5" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="224" y="288" w="32" h="32" xo="32" yo="0" id="10000411" name="inst_A86DB59E" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="256" y="288" w="32" h="32" xo="32" yo="0" id="10000412" name="inst_025A2C2F" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="288" y="288" w="32" h="32" xo="32" yo="0" id="10000413" name="inst_0BE37B65" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="320" y="288" w="32" h="32" xo="32" yo="0" id="10000414" name="inst_75D8C135" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="352" y="288" w="32" h="32" xo="32" yo="0" id="10000415" name="inst_FE007125" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="384" y="288" w="32" h="32" xo="32" yo="0" id="10000416" name="inst_8D6A202E" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="416" y="288" w="32" h="32" xo="32" yo="0" id="10000417" name="inst_0EA838A2" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="448" y="288" w="32" h="32" xo="32" yo="0" id="10000418" name="inst_7D172731" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="480" y="288" w="32" h="32" xo="32" yo="0" id="10000419" name="inst_FA521B25" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="512" y="288" w="32" h="32" xo="32" yo="0" id="10000420" name="inst_1038DA81" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="544" y="288" w="32" h="32" xo="32" yo="0" id="10000421" name="inst_AD68A4C0" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="576" y="288" w="32" h="32" xo="32" yo="0" id="10000422" name="inst_805FFC99" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="32" y="96" w="32" h="32" xo="0" yo="0" id="10000423" name="inst_F0EED799" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="64" y="96" w="32" h="32" xo="0" yo="0" id="10000424" name="inst_4AC291C8" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="96" y="96" w="32" h="32" xo="0" yo="0" id="10000425" name="inst_B9AB166A" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="128" y="96" w="32" h="32" xo="0" yo="0" id="10000426" name="inst_34270DF7" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="160" y="96" w="32" h="32" xo="0" yo="0" id="10000427" name="inst_6179E839" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="192" y="96" w="32" h="32" xo="0" yo="0" id="10000428" name="inst_7A961DBA" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="224" y="96" w="32" h="32" xo="0" yo="0" id="10000429" name="inst_CD32141C" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="256" y="96" w="32" h="32" xo="0" yo="0" id="10000430" name="inst_24037145" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="320" y="96" w="32" h="32" xo="0" yo="0" id="10000431" name="inst_4B8FCE62" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="288" y="96" w="32" h="32" xo="0" yo="0" id="10000432" name="inst_29405113" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="384" y="96" w="32" h="32" xo="0" yo="0" id="10000433" name="inst_D68FEC87" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="352" y="96" w="32" h="32" xo="0" yo="0" id="10000434" name="inst_47F4E9B7" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="416" y="96" w="32" h="32" xo="0" yo="0" id="10000435" name="inst_0ACDDD3D" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="480" y="96" w="32" h="32" xo="0" yo="0" id="10000436" name="inst_6BAB34C1" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="512" y="96" w="32" h="32" xo="0" yo="0" id="10000437" name="inst_9442A7E4" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="544" y="96" w="32" h="32" xo="0" yo="0" id="10000438" name="inst_BAC6AA97" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_floor" x="576" y="96" w="32" h="32" xo="0" yo="0" id="10000439" name="inst_F1D721CE" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
