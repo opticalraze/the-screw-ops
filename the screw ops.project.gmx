@@ -72,10 +72,6 @@
         <sprite>sprites\spr_enemy_three</sprite>
       </sprites>
     </sprites>
-    <sprites name="spr_wall">
-      <sprite>sprites\spr_wall_one</sprite>
-      <sprite>sprites\spr_wall_two</sprite>
-    </sprites>
     <sprites name="spr_keys">
       <sprite>sprites\spr_key_w</sprite>
       <sprite>sprites\spr_controls</sprite>
@@ -462,19 +458,14 @@
       <background>background\bg_wall2</background>
     </backgrounds>
     <backgrounds name="tiles">
-      <backgrounds name="floor">
-        <background>background\tl_floor_one</background>
-        <background>background\tl_floor_two</background>
-        <background>background\tl_floor_three</background>
-        <background>background\tl_floor_four</background>
-        <background>background\tl_floor</background>
-      </backgrounds>
       <backgrounds name="aesthetics">
         <backgrounds name="molding">
           <background>background\tl_molding_one</background>
           <background>background\tl_molding_two</background>
         </backgrounds>
       </backgrounds>
+      <background>background\tl_floor</background>
+      <background>background\tl_wall</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -566,9 +557,6 @@
           <object>objects\obj_stair_three_three</object>
           <object>objects\obj_stair_four_three</object>
         </objects>
-      </objects>
-      <objects name="obj_wall">
-        <object>objects\obj_wall_one</object>
       </objects>
     </objects>
     <objects name="cutscene_one">
