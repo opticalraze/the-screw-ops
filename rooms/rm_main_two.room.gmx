@@ -121,6 +121,7 @@
     <instance objName="obj_intercom_mark" x="478" y="265" name="inst_D27F1FAC" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_main_two_view" x="64" y="0" name="inst_5A1806D6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_fourteen" x="192" y="256" name="inst_D5421034" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_computer_egg" x="101" y="263" name="inst_75E9469D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tl_molding_one" x="64" y="256" w="32" h="32" xo="0" yo="0" id="10000258" name="inst_497B3311" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

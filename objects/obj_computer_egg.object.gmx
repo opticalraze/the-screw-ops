@@ -25,20 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if (place_meeting(x,y,obj_player))
+            <string>if (place_meeting(x,y,obj_player))
 {
-    if (!instance_exists(obj_f_key_six))
-    {
-        instance_create(x+16,y-13,obj_f_key_six)
-    }
+    draw_sprite(spr_f_key,0,x,y);
 }
-else
-{
-    if (instance_exists(obj_f_key_six))
-    {
-        instance_destroy(obj_f_key_six)
-    }
-}*/
+
 </string>
           </argument>
         </arguments>
