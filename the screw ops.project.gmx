@@ -64,45 +64,9 @@
     <sound>sound\snd_trippy</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="spr_enemy">
-      <sprites name="spr_enemy_one">
-        <sprite>sprites\spr_enemy_one</sprite>
-      </sprites>
-      <sprites name="spr_enemy_three">
-        <sprite>sprites\spr_enemy_three</sprite>
-      </sprites>
-    </sprites>
-    <sprites name="spr_keys">
-      <sprite>sprites\spr_key_w</sprite>
-      <sprite>sprites\spr_controls</sprite>
-      <sprite>sprites\spr_key_a</sprite>
-      <sprite>sprites\spr_key_s</sprite>
-      <sprite>sprites\spr_key_d</sprite>
-      <sprite>sprites\spr_key_f</sprite>
-      <sprite>sprites\spr_key_esc</sprite>
-      <sprite>sprites\spr_key_ctrl</sprite>
-      <sprite>sprites\spr_key_shift</sprite>
-      <sprite>sprites\spr_key_space</sprite>
-    </sprites>
-    <sprites name="spr_poster">
-      <sprite>sprites\spr_poster_one</sprite>
-      <sprite>sprites\spr_poster_two</sprite>
-      <sprite>sprites\spr_poster_three</sprite>
-    </sprites>
-    <sprites name="spr_graffity">
-      <sprite>sprites\spr_graffity_one</sprite>
-      <sprite>sprites\spr_graffity_two</sprite>
-    </sprites>
-    <sprites name="spr_painting">
-      <sprite>sprites\spr_painting</sprite>
-      <sprite>sprites\spr_painting_md</sprite>
-    </sprites>
-    <sprites name="spr_trigger">
-      <sprite>sprites\spr_trigger_one</sprite>
-      <sprite>sprites\spr_trigger_two</sprite>
-    </sprites>
+    <sprite>sprites\spr_enemy_spider</sprite>
+    <sprite>sprites\spr_floor</sprite>
     <sprites name="spr_floor">
-      <sprite>sprites\spr_floor</sprite>
       <sprites name="spr_slope">
         <sprites name="spr_slope_one">
           <sprite>sprites\spr_slope_one_one</sprite>
@@ -148,6 +112,43 @@
         <sprite>sprites\spr_floor_four</sprite>
         <sprite>sprites\spr_floor_five</sprite>
       </sprites>
+    </sprites>
+    <sprites name="spr_enemy">
+      <sprites name="spr_enemy_one">
+        <sprite>sprites\spr_enemy_one</sprite>
+      </sprites>
+      <sprites name="spr_enemy_three">
+        <sprite>sprites\spr_enemy_three</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="spr_keys">
+      <sprite>sprites\spr_key_w</sprite>
+      <sprite>sprites\spr_controls</sprite>
+      <sprite>sprites\spr_key_a</sprite>
+      <sprite>sprites\spr_key_s</sprite>
+      <sprite>sprites\spr_key_d</sprite>
+      <sprite>sprites\spr_key_f</sprite>
+      <sprite>sprites\spr_key_esc</sprite>
+      <sprite>sprites\spr_key_ctrl</sprite>
+      <sprite>sprites\spr_key_shift</sprite>
+      <sprite>sprites\spr_key_space</sprite>
+    </sprites>
+    <sprites name="spr_poster">
+      <sprite>sprites\spr_poster_one</sprite>
+      <sprite>sprites\spr_poster_two</sprite>
+      <sprite>sprites\spr_poster_three</sprite>
+    </sprites>
+    <sprites name="spr_graffity">
+      <sprite>sprites\spr_graffity_one</sprite>
+      <sprite>sprites\spr_graffity_two</sprite>
+    </sprites>
+    <sprites name="spr_painting">
+      <sprite>sprites\spr_painting</sprite>
+      <sprite>sprites\spr_painting_md</sprite>
+    </sprites>
+    <sprites name="spr_trigger">
+      <sprite>sprites\spr_trigger_one</sprite>
+      <sprite>sprites\spr_trigger_two</sprite>
     </sprites>
     <sprites name="spr_door">
       <sprite>sprites\spr_door_one</sprite>
