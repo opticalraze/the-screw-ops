@@ -60,7 +60,6 @@
     <instance objName="obj_trigger_two" x="412" y="256" name="inst_20AA6CE1" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_graffity_two" x="193" y="211" name="inst_2B0FD97E" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_one_view" x="512" y="224" name="inst_1EA48388" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_poster_three" x="448" y="224" name="inst_5FE05001" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_main_one" x="0" y="0" name="inst_02B855EE" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
@@ -89,6 +88,7 @@
     <tile bgName="tl_floor" x="64" y="288" w="32" h="32" xo="32" yo="0" id="10000463" name="inst_C4CABC1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_floor" x="32" y="288" w="32" h="32" xo="32" yo="0" id="10000464" name="inst_2C7BECB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_floor" x="0" y="288" w="32" h="32" xo="32" yo="0" id="10000465" name="inst_8E04C577" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_poster" x="448" y="224" w="36" h="49" xo="0" yo="49" id="10000893" name="inst_4DB593DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

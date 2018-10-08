@@ -116,12 +116,6 @@
     <instance objName="obj_intercom" x="286" y="265" name="inst_143DEDAF" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_intercom" x="542" y="265" name="inst_18783A6C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_intercom" x="606" y="265" name="inst_2F953827" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_one" x="201" y="245" name="inst_F39ADB4D" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_two" x="266" y="245" name="inst_AA236318" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_three" x="329" y="245" name="inst_B1CA27D0" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_four" x="457" y="245" name="inst_731593C0" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_five" x="521" y="245" name="inst_B7CF940A" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_sign_six" x="585" y="245" name="inst_FDAF14DF" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_intercom_mark" x="350" y="265" name="inst_86D4CD52" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_intercom_mark" x="478" y="265" name="inst_D27F1FAC" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_main_two_view" x="64" y="0" name="inst_5A1806D6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -203,6 +197,12 @@
     <tile bgName="tl_wall" x="768" y="64" w="32" h="32" xo="0" yo="0" id="10000703" name="inst_2E7C07CC" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_wall" x="768" y="32" w="32" h="32" xo="0" yo="0" id="10000704" name="inst_7484F22E" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_wall" x="768" y="0" w="32" h="32" xo="0" yo="0" id="10000705" name="inst_CC148D48" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="201" y="245" w="13" h="7" xo="0" yo="0" id="10000861" name="inst_C49B5021" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="265" y="245" w="13" h="7" xo="13" yo="0" id="10000862" name="inst_1B965C41" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="329" y="245" w="13" h="7" xo="26" yo="7" id="10000863" name="inst_99BD10AA" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="457" y="245" w="13" h="7" xo="39" yo="7" id="10000864" name="inst_2D56D29B" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="521" y="245" w="13" h="7" xo="0" yo="7" id="10000865" name="inst_D86EA308" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_door_sign" x="585" y="245" w="13" h="7" xo="13" yo="7" id="10000866" name="inst_2B97F2B0" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_door" x="192" y="254" w="32" h="34" xo="0" yo="34" id="10000827" name="inst_49DBF197" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_door" x="256" y="254" w="32" h="34" xo="0" yo="68" id="10000828" name="inst_317E2608" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_door" x="320" y="254" w="32" h="34" xo="0" yo="0" id="10000829" name="inst_961EA840" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

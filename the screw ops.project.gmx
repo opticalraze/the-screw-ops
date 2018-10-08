@@ -98,11 +98,6 @@
       <sprite>sprites\spr_key_shift</sprite>
       <sprite>sprites\spr_key_space</sprite>
     </sprites>
-    <sprites name="spr_poster">
-      <sprite>sprites\spr_poster_one</sprite>
-      <sprite>sprites\spr_poster_two</sprite>
-      <sprite>sprites\spr_poster_three</sprite>
-    </sprites>
     <sprites name="spr_graffity">
       <sprite>sprites\spr_graffity_one</sprite>
       <sprite>sprites\spr_graffity_two</sprite>
@@ -128,14 +123,6 @@
       <sprite>sprites\spr_door_foor</sprite>
       <sprite>sprites\spr_door_five</sprite>
       <sprite>sprites\spr_door_six</sprite>
-      <sprites name="spr_door_sign">
-        <sprite>sprites\spr_door_sign_one</sprite>
-        <sprite>sprites\spr_door_sign_two</sprite>
-        <sprite>sprites\spr_door_sign_three</sprite>
-        <sprite>sprites\spr_door_sign_foor</sprite>
-        <sprite>sprites\spr_door_sign_five</sprite>
-        <sprite>sprites\spr_door_sign_six</sprite>
-      </sprites>
     </sprites>
     <sprites name="aesthetics">
       <sprite>sprites\spr_vending_machine</sprite>
@@ -398,6 +385,7 @@
     <sprite>sprites\spr_font_old2</sprite>
     <sprite>sprites\spr_font_old</sprite>
     <sprite>sprites\spr_select</sprite>
+    <sprite>sprites\spr_computer_egg</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="backgrounds">
@@ -424,6 +412,8 @@
       <background>background\bg_wall3</background>
       <background>background\bg_wall</background>
       <background>background\bg_wall2</background>
+      <background>background\bg_computer</background>
+      <background>background\bg_website</background>
     </backgrounds>
     <backgrounds name="tiles">
       <backgrounds name="aesthetics">
@@ -431,6 +421,8 @@
           <background>background\tl_molding_one</background>
           <background>background\tl_molding_two</background>
         </backgrounds>
+        <background>background\tl_door_sign</background>
+        <background>background\tl_poster</background>
       </backgrounds>
       <background>background\tl_floor</background>
       <background>background\tl_wall</background>
@@ -457,6 +449,7 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_computer_egg</object>
     <object>objects\obj_menu_elevator</object>
     <object>objects\obj_trigger_elevator</object>
     <object>objects\obj_floor</object>
@@ -621,19 +614,6 @@
       <object>objects\obj_graffity_two</object>
       <object>objects\obj_graffity_one</object>
     </objects>
-    <objects name="obj_poster">
-      <object>objects\obj_poster_one</object>
-      <object>objects\obj_poster_two</object>
-      <object>objects\obj_poster_three</object>
-    </objects>
-    <objects name="obj_door_sign">
-      <object>objects\obj_door_sign_one</object>
-      <object>objects\obj_door_sign_two</object>
-      <object>objects\obj_door_sign_three</object>
-      <object>objects\obj_door_sign_four</object>
-      <object>objects\obj_door_sign_five</object>
-      <object>objects\obj_door_sign_six</object>
-    </objects>
     <objects name="obj_intercom">
       <object>objects\obj_intercom</object>
       <object>objects\obj_intercom_mark</object>
@@ -763,6 +743,7 @@
       <room>rooms\rm_game_final</room>
       <room>rooms\rm_building</room>
     </rooms>
+    <room>rooms\rm_computer</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
