@@ -25,31 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Initialize the rm_elevator room
+            <string>menu[0] = "Floor 01";
+menu[1] = "Floor 02";
+menu[2] = "Floor 03";
+menu[3] = "Leave";
 
-// If cursor object exists, destroy it
-if instance_exists(obj_cursor)
-{
-    instance_destroy(obj_cursor)
-}
-
-// If cursor pointer object doesn't exist, create it
-/*if !instance_exists(obj_cursor_pointer)
-{
-    instance_create(mouse_x,mouse_y,obj_cursor_pointer)
-}*/
-
-// If obj_gui exists, destroy it
-if instance_exists(obj_gui)
-{
-    instance_destroy(obj_gui)
-}
+space = 15;
+mpos = 0;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -66,7 +54,54 @@ if instance_exists(obj_gui)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Draw floor select
+            <string>var move = 0;
+move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
+move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
+
+if (move!= 0)
+{
+    mpos += move;
+    if (mpos &lt; 0) mpos = array_length_1d(menu) - 1;
+    if (mpos &gt; array_length_1d(menu) - 1) mpos = 0;
+}
+
+var push;
+push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_space),0);
+if (push == 1) scr_menu_elevator();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_halign(fa_left);
+draw_set_valign(fa_middle);
+draw_set_font(fnt_menu);
+draw_set_color(c_white);
+
+var m;
+for (m = 0; m &lt; array_length_1d(menu); m += 1)
+{
+    draw_text(x + 20, y + (m * space),string(menu[m])) //20 or space
+}
+
+draw_sprite(spr_select, 0, x + 16, y + mpos * space);
 </string>
           </argument>
         </arguments>

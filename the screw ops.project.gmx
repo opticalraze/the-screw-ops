@@ -397,6 +397,7 @@
     <sprite>sprites\spr_font</sprite>
     <sprite>sprites\spr_font_old2</sprite>
     <sprite>sprites\spr_font_old</sprite>
+    <sprite>sprites\spr_select</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="backgrounds">
@@ -436,6 +437,7 @@
       <background>background\tl_stair</background>
       <background>background\tl_slab</background>
       <background>background\tl_slope</background>
+      <background>background\tl_door</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -445,14 +447,18 @@
     <script>scripts\scr_shadow.gml</script>
     <script>scripts\scr_f_key.gml</script>
     <script>scripts\drawText.gml</script>
+    <script>scripts\scr_menu_elevator.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_sin_city.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_debug</font>
+    <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_menu_elevator</object>
+    <object>objects\obj_trigger_elevator</object>
     <object>objects\obj_floor</object>
     <object>objects\obj_stair_one</object>
     <object>objects\obj_stair_two</object>
@@ -727,6 +733,8 @@
       <room>rooms\rm_main_three</room>
       <room>rooms\rm_main_four</room>
       <room>rooms\rm_main_five</room>
+      <room>rooms\rm_main_six</room>
+      <room>rooms\rm_main_seven</room>
     </rooms>
     <rooms name="rm_level">
       <room>rooms\rm_level_one</room>
