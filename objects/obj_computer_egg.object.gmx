@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,obj_player))
+            <string>/*if (place_meeting(x,y,obj_player))
 {
     if (!instance_exists(obj_f_key_six))
     {
@@ -38,7 +38,7 @@ else
     {
         instance_destroy(obj_f_key_six)
     }
-}
+}*/
 </string>
           </argument>
         </arguments>
@@ -61,7 +61,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check_pressed(ord('F')))
+            <string>/*if (keyboard_check_pressed(ord('F')))
 {
     // Set global.roomcamefrom to rm_secret_two
     global.roomcamefrom = room_get_name;
@@ -71,7 +71,7 @@ else
     
     // goto elevator room
     room_goto(rm_computer);
-}
+}*/
 </string>
           </argument>
         </arguments>
