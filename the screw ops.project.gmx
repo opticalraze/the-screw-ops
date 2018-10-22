@@ -78,15 +78,15 @@
       <sprite>sprites\spr_slope_four</sprite>
     </sprites>
     <sprite>sprites\spr_enemy_spider</sprite>
-    <sprites name="spr_enemy">
-      <sprites name="spr_enemy_one">
+    <sprites name="enemy">
+      <sprites name="enemy one">
         <sprite>sprites\spr_enemy_one</sprite>
       </sprites>
-      <sprites name="spr_enemy_three">
+      <sprites name="enemy three">
         <sprite>sprites\spr_enemy_three</sprite>
       </sprites>
     </sprites>
-    <sprites name="spr_keys">
+    <sprites name="keys">
       <sprite>sprites\spr_key_w</sprite>
       <sprite>sprites\spr_controls</sprite>
       <sprite>sprites\spr_key_a</sprite>
@@ -449,26 +449,6 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_computer_egg</object>
-    <object>objects\obj_menu_elevator</object>
-    <object>objects\obj_trigger_elevator</object>
-    <object>objects\obj_floor</object>
-    <object>objects\obj_stair_one</object>
-    <object>objects\obj_stair_two</object>
-    <object>objects\obj_stair_three</object>
-    <object>objects\obj_stair_four</object>
-    <object>objects\obj_slab_one</object>
-    <object>objects\obj_slab_two</object>
-    <object>objects\obj_slope_one</object>
-    <object>objects\obj_slope_two</object>
-    <object>objects\obj_slope_three</object>
-    <object>objects\obj_slope_four</object>
-    <objects name="views">
-      <object>objects\obj_rm_tutorial_view</object>
-      <object>objects\obj_rm_main_two_view</object>
-      <object>objects\obj_rm_secret_one_view</object>
-      <object>objects\obj_rm_view</object>
-    </objects>
     <objects name="initialize">
       <object>objects\obj_initialize</object>
       <objects name="obj_rm_main">
@@ -498,6 +478,32 @@
         <object>objects\obj_credits</object>
       </objects>
     </objects>
+    <objects name="floor">
+      <object>objects\obj_floor</object>
+      <object>objects\obj_stair_one</object>
+      <object>objects\obj_stair_two</object>
+      <object>objects\obj_stair_three</object>
+      <object>objects\obj_stair_four</object>
+      <object>objects\obj_slab_one</object>
+      <object>objects\obj_slab_two</object>
+      <object>objects\obj_slope_one</object>
+      <object>objects\obj_slope_two</object>
+      <object>objects\obj_slope_three</object>
+      <object>objects\obj_slope_four</object>
+    </objects>
+    <objects name="views">
+      <object>objects\obj_rm_tutorial_view</object>
+      <object>objects\obj_rm_main_two_view</object>
+      <object>objects\obj_rm_secret_one_view</object>
+      <object>objects\obj_rm_view</object>
+    </objects>
+    <objects name="player">
+      <object>objects\obj_player</object>
+      <object>objects\obj_player_melee_hitbox</object>
+    </objects>
+    <object>objects\obj_computer_egg</object>
+    <object>objects\obj_menu_elevator</object>
+    <object>objects\obj_trigger_elevator</object>
     <objects name="cutscene_one">
       <object>objects\obj_bot_one</object>
       <object>objects\obj_trigger_one</object>
@@ -505,10 +511,6 @@
       <object>objects\obj_bot_two</object>
       <object>objects\obj_rm_one_view</object>
       <object>objects\obj_player_look</object>
-    </objects>
-    <objects name="obj_player">
-      <object>objects\obj_player</object>
-      <object>objects\obj_player_melee_hitbox</object>
     </objects>
     <objects name="other">
       <object>objects\obj_balloon</object>

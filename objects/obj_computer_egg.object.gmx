@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,obj_player))
+            <string>/*if (place_meeting(x,y,obj_player))
 {
     draw_sprite(spr_f_key,0,x,y);
-}
+}*/
 
 </string>
           </argument>
@@ -52,17 +52,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if (keyboard_check_pressed(ord('F')))
+            <string>if (keyboard_check_pressed(ord('F')))
 {
-    // Set global.roomcamefrom to rm_secret_two
-    global.roomcamefrom = room_get_name;
+    // Set global.roomcamefrom to current room
+    //global.roomcamefrom = room_get_name;            // not working //
     
     // destroy player object
-    //instance_destroy(obj_player)
+    instance_destroy(obj_player)
     
     // goto elevator room
     room_goto(rm_computer);
-}*/
+}
 </string>
           </argument>
         </arguments>
