@@ -76,8 +76,23 @@
       <sprite>sprites\spr_slope_two</sprite>
       <sprite>sprites\spr_slope_three</sprite>
       <sprite>sprites\spr_slope_four</sprite>
+      <sprites name="trigger">
+        <sprite>sprites\spr_trigger_one</sprite>
+        <sprite>sprites\spr_trigger_two</sprite>
+      </sprites>
     </sprites>
-    <sprite>sprites\spr_enemy_spider</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_player_idle</sprite>
+      <sprite>sprites\spr_player_melee</sprite>
+      <sprite>sprites\spr_player_melee_hitbox</sprite>
+      <sprite>sprites\spr_player_look</sprite>
+      <sprite>sprites\spr_player_crouch</sprite>
+      <sprite>sprites\spr_player_fall</sprite>
+      <sprite>sprites\spr_player_jump</sprite>
+      <sprite>sprites\spr_player_walk</sprite>
+      <sprite>sprites\spr_player_sprint</sprite>
+      <sprite>sprites\spr_player_melee_old</sprite>
+    </sprites>
     <sprites name="enemy">
       <sprites name="enemy one">
         <sprite>sprites\spr_enemy_one</sprite>
@@ -85,32 +100,37 @@
       <sprites name="enemy three">
         <sprite>sprites\spr_enemy_three</sprite>
       </sprites>
+      <sprite>sprites\spr_enemy_spider</sprite>
     </sprites>
-    <sprites name="keys">
-      <sprite>sprites\spr_key_w</sprite>
-      <sprite>sprites\spr_controls</sprite>
-      <sprite>sprites\spr_key_a</sprite>
-      <sprite>sprites\spr_key_s</sprite>
-      <sprite>sprites\spr_key_d</sprite>
-      <sprite>sprites\spr_key_f</sprite>
-      <sprite>sprites\spr_key_esc</sprite>
-      <sprite>sprites\spr_key_ctrl</sprite>
-      <sprite>sprites\spr_key_shift</sprite>
-      <sprite>sprites\spr_key_space</sprite>
+    <sprites name="bot">
+      <sprites name="bot one">
+        <sprite>sprites\spr_bot_one_idle</sprite>
+        <sprite>sprites\spr_bot_one_look</sprite>
+        <sprite>sprites\spr_bot_one_crouch</sprite>
+        <sprite>sprites\spr_bot_one_fall</sprite>
+        <sprite>sprites\spr_bot_one_jump</sprite>
+        <sprite>sprites\spr_bot_one_walk</sprite>
+        <sprite>sprites\spr_bot_one_sprint</sprite>
+      </sprites>
+      <sprites name="bot two">
+        <sprite>sprites\spr_bot_two_idle</sprite>
+        <sprite>sprites\spr_bot_two_look</sprite>
+        <sprite>sprites\spr_bot_two_crouch</sprite>
+        <sprite>sprites\spr_bot_two_fall</sprite>
+        <sprite>sprites\spr_bot_two_jump</sprite>
+        <sprite>sprites\spr_bot_two_walk</sprite>
+        <sprite>sprites\spr_bot_two_sprint</sprite>
+      </sprites>
     </sprites>
-    <sprites name="spr_graffity">
+    <sprites name="graffity">
       <sprite>sprites\spr_graffity_one</sprite>
       <sprite>sprites\spr_graffity_two</sprite>
     </sprites>
-    <sprites name="spr_painting">
+    <sprites name="painting">
       <sprite>sprites\spr_painting</sprite>
       <sprite>sprites\spr_painting_md</sprite>
     </sprites>
-    <sprites name="spr_trigger">
-      <sprite>sprites\spr_trigger_one</sprite>
-      <sprite>sprites\spr_trigger_two</sprite>
-    </sprites>
-    <sprites name="spr_door">
+    <sprites name="door">
       <sprite>sprites\spr_door_one</sprite>
       <sprite>sprites\spr_door_two</sprite>
       <sprite>sprites\spr_elevator_door</sprite>
@@ -137,34 +157,6 @@
       <sprite>sprites\spr_clock_old_1</sprite>
       <sprite>sprites\spr_throne</sprite>
       <sprite>sprites\spr_throne_base</sprite>
-    </sprites>
-    <sprites name="spr_bot">
-      <sprite>sprites\spr_bot_one_idle</sprite>
-      <sprite>sprites\spr_bot_one_look</sprite>
-      <sprite>sprites\spr_bot_one_crouch</sprite>
-      <sprite>sprites\spr_bot_one_fall</sprite>
-      <sprite>sprites\spr_bot_one_jump</sprite>
-      <sprite>sprites\spr_bot_one_walk</sprite>
-      <sprite>sprites\spr_bot_one_sprint</sprite>
-      <sprite>sprites\spr_bot_two_idle</sprite>
-      <sprite>sprites\spr_bot_two_look</sprite>
-      <sprite>sprites\spr_bot_two_crouch</sprite>
-      <sprite>sprites\spr_bot_two_fall</sprite>
-      <sprite>sprites\spr_bot_two_jump</sprite>
-      <sprite>sprites\spr_bot_two_walk</sprite>
-      <sprite>sprites\spr_bot_two_sprint</sprite>
-    </sprites>
-    <sprites name="spr_player">
-      <sprite>sprites\spr_player_idle</sprite>
-      <sprite>sprites\spr_player_melee</sprite>
-      <sprite>sprites\spr_player_melee_hitbox</sprite>
-      <sprite>sprites\spr_player_look</sprite>
-      <sprite>sprites\spr_player_crouch</sprite>
-      <sprite>sprites\spr_player_fall</sprite>
-      <sprite>sprites\spr_player_jump</sprite>
-      <sprite>sprites\spr_player_walk</sprite>
-      <sprite>sprites\spr_player_sprint</sprite>
-      <sprite>sprites\spr_player_melee_old</sprite>
     </sprites>
     <sprites name="Objects">
       <sprites name="spr_ladder">
@@ -225,7 +217,7 @@
       </sprites>
     </sprites>
     <sprites name="Gui">
-      <sprites name="spr_cursor">
+      <sprites name="cursor">
         <sprite>sprites\spr_cursor_pointer</sprite>
         <sprite>sprites\spr_cursor</sprite>
         <sprite>sprites\spr_cursor_reload</sprite>
